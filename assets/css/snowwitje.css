@@ -183,6 +183,14 @@ section.content a .icon:before {
 .reveal section.content h4 a.download-link {
 	font-size: 0.8rem;
 	margin-left: 2em;
+	background: rgba(159, 68, 178, 0.1);
+	border: none;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 0.5em;
+}
+.reveal section.content h4 a.download-link:hover {
+	background: rgba(239, 180, 39, 0.2);
 }
 .reveal section.content.content-cv {
 	text-align: left;
@@ -211,6 +219,12 @@ section.content a .icon:before {
 }
 .reveal section.content.content-cv ul.nostyle li {
 	margin-left: -1.5em;
+}
+.reveal section.content.content-cv ul.nostyle.strong li {
+	color: #594c63;
+	font-size: 1.1em;
+	padding-left: 1rem;
+	border-left: 5px solid rgba(159, 68, 178, 0.5);
 }
 
 /* SVG image */
