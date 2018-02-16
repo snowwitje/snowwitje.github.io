@@ -276,6 +276,20 @@ ul.social li .icon:before {
 .icon:before {
 	color: #7f7488;
 }
+ul.social li a.resume {
+	font-size: 0.7rem;
+	background: rgba(159, 68, 178, 0.1);
+	border: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 0.5em 1em;
+	color: rgba(159, 68, 178, 1);
+	font-weight: 400;
+}
+ul.social li a.resume:hover {
+	background: rgba(239, 180, 39, 0.2);
+	color: black;
+}
 
 /*********************************************
  * NAVIGATION CONTROLS
