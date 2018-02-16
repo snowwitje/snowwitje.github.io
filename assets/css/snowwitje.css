@@ -329,28 +329,23 @@ ul.social li .icon:before {
   border-top-color: rgba(159, 68, 178, 1); }
 
 .perspective {
-	perspective: 1000px;
+	/*perspective: 1000px;*/
 }
 .image-container {
 	text-align: center;
 	position: relative;
 }
 .perspective img {
-	transform: rotateY(-30deg);
+	/*transform: rotateY(-30deg);*/
 	-webkit-box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
 	   -moz-box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
 	    -ms-box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
 	        box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-left: 1em;
 }
 .image-container img {
 	max-height: 350px;
-}
-.col2:first-child .perspective img {
-	transform: rotateY(30deg);
-}
-.col2:first-child .image-container {
-	text-align: left;
 }
 .front-image {
 	z-index: 2;
