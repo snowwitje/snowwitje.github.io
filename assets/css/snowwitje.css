@@ -302,7 +302,7 @@ section.content a .icon:before {
 
 /* Rolling eye animation */
 @keyframes eyeroll {
-  0%, 30%, 70%, 100% {
+  0%, 30% {
     -moz-transform: translate(0, 0);
 	transform: translate(0, 0);
 	-webkit-transform: translate(0, 0);
