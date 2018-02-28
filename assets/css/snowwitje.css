@@ -189,6 +189,12 @@ section.content a .icon:before {
 	-moz-border-radius: 10px;
 	padding: 0.5em;
 }
+.reveal section.content h5 span.email {
+	color: rgba(159, 68, 178, 1);
+	text-transform: lowercase;
+	margin-left: 1em;
+	font-size: 0.8rem;
+}
 .reveal section.content h4 a.download-link:hover {
 	background: rgba(239, 180, 39, 0.2);
 }
