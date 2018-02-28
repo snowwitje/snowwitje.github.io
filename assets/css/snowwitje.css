@@ -271,6 +271,10 @@ section.content a .icon:before {
 #devochka svg path.lefteye {
 	animation: blink 20s linear 1s infinite;
 }
+#devochka-look {
+	width: 230px;
+	padding-right: 5em;
+}
 
 /* Blinking animation */
 @keyframes blink {
@@ -282,6 +286,25 @@ section.content a .icon:before {
   }
   0.3%, 1.2%, 100% {
     opacity: 1;
+  }
+}
+
+#devochka-look:hover svg path.righteye,
+#devochka-look:hover svg path.lefteye {
+	animation: eyeroll 3s linear;
+}
+
+/* Rolling eye animation */
+@keyframes eyeroll {
+  0%, 30%, 70%, 100% {
+    -moz-transform: translate(0, 0);
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+  }
+  50% {
+    -moz-transform: translate(-2px, 0);
+	transform: translate(-2px, 0);
+	-webkit-transform: translate(-2px, 0);
   }
 }
 
@@ -475,6 +498,9 @@ ul.social li a.resume:hover {
 /* Misc */
 .leftfloat {
 	float: left;
+}
+.rightalign {
+	text-align: right;
 }
 .reveal section.content p .strong,
 .reveal section.content p strong,
