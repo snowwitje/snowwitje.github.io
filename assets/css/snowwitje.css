@@ -274,7 +274,9 @@ section.content a .icon:before {
 	opacity: 1;
 }
 #devochka svg path.righteye,
-#devochka svg path.lefteye {
+#devochka svg path.lefteye,
+#devochka-look svg path.righteye,
+#devochka-look svg path.lefteye {
 	animation: blink 20s linear 1s infinite;
 }
 #devochka-look svg {
@@ -302,15 +304,15 @@ section.content a .icon:before {
 
 /* Rolling eye animation */
 @keyframes eyeroll {
-  0%, 30% {
+  0%, 20% {
     -moz-transform: translate(0, 0);
 	transform: translate(0, 0);
 	-webkit-transform: translate(0, 0);
   }
-  50% {
-    -moz-transform: translate(-2px, 0);
-	transform: translate(-2px, 0);
-	-webkit-transform: translate(-2px, 0);
+  40% {
+    -moz-transform: translate(0.5px, 2px);
+	transform: translate(0.5px, 2px);
+	-webkit-transform: translate(0.5px, 2px);
   }
 }
 
