@@ -271,9 +271,9 @@ section.content a .icon:before {
 #devochka svg path.lefteye {
 	animation: blink 20s linear 1s infinite;
 }
-#devochka-look {
-	width: 230px;
-	padding-right: 5em;
+#devochka-look svg {
+	width: 200px;
+	margin-left: 3em;
 }
 
 /* Blinking animation */
