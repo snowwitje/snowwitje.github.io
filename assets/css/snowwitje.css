@@ -608,18 +608,12 @@ ul.social li a.resume:hover {
 .reveal .flex-col:first-child .image-container {
 	margin-top: 2em;
 }
+.reveal .flex-col:last-child .gallery {
+	margin-left: 1.5em;
+	width: 100%;
+}
 
 /* Gallery */
-.reveal .gallery-wrap {
-	background: rgba(159, 68, 178, 0.1);
-	padding: 1em 2em;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	width: 100%;
-	min-height: 400px;
-	position: relative;
-	overflow: hidden;
-}
 .reveal .me-img {
 	display: inline-block;
 	background-image: url("../images/photo.jpg");
@@ -719,7 +713,7 @@ ul#menu {
 	bottom: 0;
 	left: 2em;
 	position: absolute;
-	z-index: 2000;
+	z-index: 1000;
 }
 ul#menu li {
 	display: inline-block;
