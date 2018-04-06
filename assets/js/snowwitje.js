@@ -5,7 +5,7 @@ $(document).ready(function () {
 		$body = $('body');
 
 	// Lightbox gallery.
-	var $gallery = $('.gallery li');
+	var $gallery = $('.gallery');
 	if ($gallery.length) {
 		$gallery.each(function (i, item) {
 			$(item).poptrox({
@@ -13,7 +13,7 @@ $(document).ready(function () {
 				popupPadding: 15,
 				caption: { selector: ".about", remove: true },
 				usePopupCaption: true,
-				usePopupNav: false,
+				usePopupNav: true,
 				popupCaptionHeight: 80
 			});
 		});

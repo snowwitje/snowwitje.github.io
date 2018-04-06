@@ -675,6 +675,10 @@ ul.gallery {
 	margin: 2em 0 0 0;
 	padding: 0;
 }
+ul.gallery.two li {
+	width: 45%;
+	max-height: 150px;
+}
 ul.gallery li {
 	display: inline-block;
 	width: 30%;
@@ -702,6 +706,11 @@ ul.gallery li img {
 	width: 95% !important;
 	left: 2.5% !important;
 	line-height: 1.5em !important;
+}
+.details {
+	display: block;
+	padding-top: 1.2em;
+	color: rgba(140,143,148,1)
 }
 
 /* Menu */
