@@ -486,7 +486,7 @@ ul.social li a.resume:hover {
 .reveal section.content p.footnote {
 	z-index: 3;
 	position: relative;
-	background: rgba(240, 220, 253, 0.7); 
+	background: rgba(240, 220, 253, 0.9); 
 	padding: 0.8em 1.5em;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
