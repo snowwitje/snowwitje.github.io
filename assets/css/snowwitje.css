@@ -152,7 +152,8 @@ header#header h1 a:hover {
 	font-weight: 300;
 }
 .reveal section.content.primary p {
-	line-height: 2rem;
+	line-height: 2.1rem;
+	letter-spacing: -1px;
 }
 .reveal section.content p.follow-wrap {
 	text-align: left;
@@ -357,9 +358,19 @@ ul.social li a.resume {
 }
 ul.social li a.resume:hover {
 	background: rgba(239, 180, 39, 0.2);
-	color: black;
+	color: rgba(239, 180, 39, 1);
 }
-
+a.follow {
+	background: rgba(159, 68, 178, 0.1);
+	border: none !important;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 0.2em 1em;
+	color: rgba(159, 68, 178, 1);
+}
+a.follow:hover {
+	background: rgba(239, 180, 39, 0.2);
+}
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
