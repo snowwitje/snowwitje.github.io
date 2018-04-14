@@ -64,7 +64,7 @@ h2 {
 	line-height: 1em;
 	color: #afabb2;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .icon-next:before {
 		-webkit-transition: all 0.5s ease-out;
 		   -moz-transition: all 0.5s ease-out;
 		    -ms-transition: all 0.5s ease-out;
@@ -87,7 +87,6 @@ a:hover {
 	border-bottom-color: transparent !important;
 	color: #efb427;
 }
-
 
 /* Header */
 header#header {
@@ -182,13 +181,13 @@ section.content a .icon:before {
 	font-size: 1.3rem;
 }
 .reveal section.content h4 a.download-link {
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	margin-left: 2em;
 	background: rgba(159, 68, 178, 0.1);
-	border: none;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	padding: 0.5em;
+	border: 1px solid rgba(159, 68, 178, 0.1) !important;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 0.5em 1em;
 }
 .reveal section.content h5 span.email {
 	color: rgba(159, 68, 178, 1);
@@ -346,7 +345,7 @@ ul.social li .icon:before {
 .icon:before {
 	color: #7f7488;
 }
-ul.social li a.resume {
+ul.social li a.resume, #primary-menu ul li a {
 	font-size: 0.7rem;
 	background: rgba(159, 68, 178, 0.1);
 	border: none;
@@ -362,15 +361,51 @@ ul.social li a.resume:hover {
 }
 a.follow {
 	background: rgba(159, 68, 178, 0.1);
-	border: none !important;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding: 0.2em 1em;
+	padding: 0.2em 0.6em;
 	color: rgba(159, 68, 178, 1);
+	border: 1px solid rgba(159, 68, 178, 0.1) !important;
 }
 a.follow:hover {
 	background: rgba(239, 180, 39, 0.2);
 }
+
+/* Primary menu */
+#primary-menu {
+	position: absolute;
+	margin-top: -1.8em;
+	margin-left: 2em;
+	z-index: 3;
+}
+#primary-menu ul {
+	list-style: none;
+	position: relative;
+	text-transform: uppercase;
+}
+#primary-menu ul li {
+	display: inline-block;
+}
+#primary-menu ul li a {
+	background: #f5ecf7;
+	border: 1px solid rgba(159, 68, 178, 0.1);
+	font-size: 0.7rem;
+}
+#primary-menu ul li.active a,
+#primary-menu ul li.active:hover a,
+.pm.active a.resume {
+	background: #7f7488;
+	color: white;
+	border: 1px solid rgba(159, 68, 178, 0.1) !important;
+}
+#primary-menu ul li a:hover {
+	background: #fcf0d7;
+	z-index: 3;
+	border: 1px solid #E2E2E2 !important;
+	color: rgba(239, 180, 39, 1);
+}
+
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
@@ -422,8 +457,6 @@ a.follow:hover {
 .reveal .controls .navigate-down.enabled:hover {
   border-top-color: rgba(159, 68, 178, 1); }
 
-.perspective {
-}
 .image-container {
 	text-align: center;
 	position: relative;
@@ -487,8 +520,8 @@ a.follow:hover {
 .reveal section.content .col2.white-bg {
 	background: white;
 	padding: 2em;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
 	   -moz-box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
 	    -ms-box-shadow: 0px 15px 22px rgba(0, 0, 0, 0.27);
@@ -497,13 +530,12 @@ a.follow:hover {
 .reveal section.content p.footnote {
 	z-index: 3;
 	position: relative;
-	background: rgba(240, 220, 253, 0.9); 
-	padding: 0.8em 1.5em;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
+	background: rgba(225, 225, 225, 0.9); 
+	padding: 1em 1.8em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 	font-size: 9.5pt;
 	text-align: left;
-	border: 1px solid rgba(0, 0, 0, 0.27);
 	line-height: 1.3em;
 	color: rgba(0, 0, 0, 0.6);
 	display: inline-block;
@@ -721,7 +753,7 @@ ul.gallery li img {
 .details {
 	display: block;
 	padding-top: 1.2em;
-	color: rgba(140,143,148,1)
+	color: rgba(140,143,148,1);
 }
 
 /* Menu */
