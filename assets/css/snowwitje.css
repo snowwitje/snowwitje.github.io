@@ -46,6 +46,10 @@
 .icon-youtube-text:before { content: '\f313'; } /* '' */
 .icon-youtube-icon:before { content: '\f315'; } /* '' */
 .icon-linkedin:before { content: '\f31a'; } /* '' */
+.icon-prev:before {
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 
 /* Main */
 body {
@@ -188,6 +192,7 @@ section.content a .icon:before {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	padding: 0.5em 1em;
+	white-space: nowrap;
 }
 .reveal section.content h5 span.email {
 	color: rgba(159, 68, 178, 1);
@@ -391,11 +396,14 @@ a.follow:hover {
 }
 #primary-menu ul li {
 	display: inline-block;
+	margin-right: 1rem;
 }
 #primary-menu ul li a {
-	background: #f5ecf7;
-	border: 1px solid rgba(159, 68, 178, 0.1);
+	background: white;
+	border: 1px solid #7f7488;
 	font-size: 0.7rem;
+	padding: 0.5rem 1rem;
+	color: #7f7488;
 }
 #primary-menu ul li.active a,
 #primary-menu ul li.active:hover a,
@@ -564,6 +572,11 @@ a.follow:hover {
 .reveal section.content  strong {
 	font-weight: 400;
 	color: #594c63;
+}
+.highlight {
+	font-weight: 400;
+	color: black;
+	background: rgba(239, 180, 39, 0.1);
 }
 .follow {
 	white-space: nowrap;
@@ -818,5 +831,74 @@ ul#menu li a:hover span.title {
 		float: none;
 		width: 100%;
 	}
-	.white-bg
+	#primary-menu {
+		z-index: 51;
+		margin-left: 0;
+		margin-top: 150px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* Independent pages */
+.content-special {
+	margin: 0 auto;
+	width: 80%;
+	padding: 5em 0;
+	padding-top: 200px;
+}
+.content-special .flex-section {
+	min-height: 700px;
+}
+body.special {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+body.special .sticky {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+.samples-wrap {
+	padding-top: 130px;
+}
+.content-samples {
+	padding: 5em 100px 3em 300px;
+	min-height: 300px;
+}
+.content-samples:nth-child(even) {
+	background: #EFEFEF;
+}
+.special.reveal section.content.content-cv ul.nostyle.strong li {
+	margin-left: -5.5em;
+	margin-top: 4em;
+}
+/* Side menu */
+.side-menu {
+	position: absolute;
+	top: 230px;
+	left: 50px;
+	text-align: right;
+}
+.side-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 180px;
+}
+.side-menu ul li {
+	display: inline-block;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0.5em 0;
+	padding: 0 0.5em 0 0;
+	color: #777;
+}
+.side-menu ul li:hover {
+	cursor: pointer;
+}
+.side-menu ul li.selected {
+	color: black;
+	border-right: 4px solid black;
 }
