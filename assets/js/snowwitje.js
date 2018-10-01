@@ -22,10 +22,12 @@ $(document).ready(function () {
 	
 	$window.on('load', function () {
 		if ($body.hasClass('special')) {
-			$('#header').removeClass('extended');
-		} else {
-			$('#header').addClass('extended');
-		}
+			if ($('#header').hasClass('extended')) {
+				$('#header').removeClass('extended');
+			} else {
+				$('#header').addClass('extended');
+			}	
+		} 
 	});
 	
 	function menuScroll() {
