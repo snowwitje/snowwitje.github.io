@@ -225,6 +225,7 @@ header.main.fixed {
 	margin: 0;
 	display: block;
 	height: 60px;
+	overflow: visible;
 }
 header.main.fixed + .container-fluid,
 header.main.fixed + .container {
@@ -237,38 +238,31 @@ header.main.fixed .top {
 
 /* Logo */
 header.main.fixed .top .logo {
-  width: 200px;
-  position: absolute;
+	float: left;
 }
-header.main.fixed .top .logo a {
-  display: inline;
+header.main.fixed .top .logo svg {
+  width: 200px;
+  height: 36.52px;
 }
 header.main.fixed .top .logo a:hover {
   border: none;
-}
-.logo svg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	display: block;
-	height: auto;
 }
 .logo-text {
   fill: black;
 }
 @media (min-width: 900px) {
-  header.main.fixed .top .logo {
-	width: 250px;
+  header.main.fixed .top .logo svg {
+	  width: 250px;
+	  height: 45.66px;
   }
 }
 
 /* IE hack */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	header.main.fixed {
-		background: white;	
+		background: yellow;
+		overflow: visible;
 	}
-	/* test */
 }
 
 
