@@ -138,6 +138,7 @@ a:active {
 }
 /* Header */
 
+/*
 header.main {
   position: relative;
   text-align: center;
@@ -213,17 +214,22 @@ header.main .top.no-nav nav {
 .logo-text {
 	fill: black;
 }
+*/
 
 /* Fixed header */
 header.main.fixed {
 	position: fixed;
 	width: 100%;
-	background: #EFEFEF;
+	background: transparent;
 	top: 0;
 	left: 0;
 	z-index: 10;
 	max-height: 50px;
 	transition: all 0.2s ease-in;
+}
+header.main .top {
+  padding: 0 2rem;
+  position: relative;
 }
 header.main.fixed + .container-fluid,
 header.main.fixed + .container {
@@ -414,7 +420,6 @@ img {
 	margin-bottom: 0;
 	text-align: center;
 }
-/* test */
 
 /* Misc */
 .mono {
