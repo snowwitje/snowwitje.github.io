@@ -254,11 +254,10 @@ header.main.fixed .top .logo a:hover {
 }
 
 /* IE hack */
-
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 
 }
-
+/* test */
 
 /* Icons */
 @font-face {
