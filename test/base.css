@@ -252,6 +252,7 @@ header.main.fixed .top .logo a:hover {
 	left: 0;
 	width: 100%;
 	display: block;
+	height: auto;
 }
 .logo-text {
   fill: black;
