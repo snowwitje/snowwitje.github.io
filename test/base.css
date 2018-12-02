@@ -238,8 +238,8 @@ header.main.fixed .top {
 /* Logo */
 header.main.fixed .top .logo {
   width: 200px;
-  float: left;
-  position: relative;
+  position: absolute;
+  display: inline-block;
 }
 header.main.fixed .top .logo a:hover {
   border: none;
