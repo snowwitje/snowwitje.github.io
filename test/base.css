@@ -137,7 +137,7 @@ a:active {
   outline: 0;
 }
 /* Header */
-/*
+
 header.main {
   position: relative;
   text-align: center;
@@ -159,7 +159,6 @@ header.main .top:after {
 header.main .top:after {
   clear: both;
 }
-*/
 header.main .top {
   padding: 1rem 2rem;
   position: relative;
@@ -218,7 +217,7 @@ header.main .top.no-nav nav {
 header.main.fixed {
 	position: fixed;
 	width: 100%;
-	background: #fff;
+	background: grey;
 	top: 0;
 	left: 0;
 	z-index: 10;
