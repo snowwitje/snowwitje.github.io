@@ -221,8 +221,6 @@ header.main.fixed {
 	top: 0;
 	left: 0;
 	z-index: 10;
-	height: 60px;
-	transition: all 0.2s ease-in;
 	padding: 0;
 	margin: 0;
 }
@@ -255,9 +253,8 @@ header.main.fixed .top .logo a:hover {
 
 /* IE hack */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	header.main.fixed + .container-fluid,
-	header.main.fixed + .container {
-		padding-top: 50px;
+	header.main.fixed {
+		background: blue;
 	}
 }
 
