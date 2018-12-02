@@ -219,7 +219,7 @@ header.main .top.no-nav nav {
 header.main.fixed {
 	position: fixed;
 	width: 100%;
-	background: grey;
+	background: #EFEFEF;
 	top: 0;
 	left: 0;
 	z-index: 10;
