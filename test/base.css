@@ -137,6 +137,7 @@ a:active {
   outline: 0;
 }
 /* Header */
+/*
 header.main {
   position: relative;
   text-align: center;
@@ -150,11 +151,6 @@ header.main:after {
   padding-top: 50%;
   width: 0;
 }
-header.main .top {
-  padding: 1rem 2rem;
-  position: relative;
-  z-index: 10;
-}
 header.main .top:before,
 header.main .top:after {
   content: " ";
@@ -163,9 +159,16 @@ header.main .top:after {
 header.main .top:after {
   clear: both;
 }
+*/
+header.main .top {
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 10;
+}
 header.main .top .logo {
   width: 200px;
   float: left;
+  height: auto;
 }
 @media (min-width: 900px) {
   header.main .top .logo {
