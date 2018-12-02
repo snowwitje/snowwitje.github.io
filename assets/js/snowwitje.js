@@ -26,12 +26,11 @@ $(document).ready(function () {
 				$('#header').removeClass('extended');
 			} else {
 				$('#header').addClass('extended');
-			}	
-		} 
+			}
+		}
 	});
 	
 	function menuScroll() {
-		'use strict';
 
 		$('.cat-menu li').on('click', function () {
 			$('.cat-menu li').each(function (i, item) {
