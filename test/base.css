@@ -223,6 +223,7 @@ header.main.fixed {
 	z-index: 10;
 	padding: 0;
 	margin: 0;
+	display: block;
 }
 header.main.fixed + .container-fluid,
 header.main.fixed + .container {
@@ -257,17 +258,7 @@ header.main.fixed .top .logo a:hover {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	header.main.fixed {
 		background: blue;
-	}
-	header.main.fixed + .container-fluid,
-	header.main.fixed + .container {
-		padding-top: 0;
-	}
-	header.main.fixed .top {
-	  padding: 0;
-	  display: inline-block;
-	}
-	header.main.fixed .top .logo {
-		height: auto !important;
+		line-height: 10pt;
 	}
 }
 
