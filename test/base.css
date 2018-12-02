@@ -241,9 +241,6 @@ header.main.fixed .top .logo {
   float: left;
   overflow: hidden;
 }
-header.main.fixed .top .logo a {
-	display: inline;
-}
 header.main.fixed .top .logo a:hover {
   border: none;
 }
