@@ -227,10 +227,6 @@ header.main.fixed {
 	max-height: 50px;
 	transition: all 0.2s ease-in;
 }
-header.main .top {
-  padding: 0 2rem;
-  position: relative;
-}
 header.main.fixed + .container-fluid,
 header.main.fixed + .container {
 	padding-top: 100px;
@@ -239,8 +235,12 @@ header.main.fixed .top .logo {
   width: 200px;
   top: 0;
 }
+header.main.fixed .top .logo a:hover {
+	border: none;
+}
 header.main.fixed .top {
-  padding: 0.2rem 2rem;
+  padding: 0.1em 2em;
+  position: relative;
 }
 header.main.fixed.shaded {
 	background: black;
