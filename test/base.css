@@ -239,9 +239,7 @@ header.main.fixed .top {
 header.main.fixed .top .logo {
   width: 200px;
   float: left;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+  overflow: hidden;
 }
 header.main.fixed .top .logo a {
 	display: inline;
