@@ -165,21 +165,6 @@ header.main .top {
   position: relative;
   z-index: 10;
 }
-header.main .top .logo {
-  width: 200px;
-  float: left;
-  height: auto;
-}
-@media (min-width: 900px) {
-  header.main .top .logo {
-    width: 250px;
-  }
-}
-@media (min-width: 1600px) {
-  header.main .top .logo {
-    width: 300px;
-  }
-}
 header.main .top nav {
   float: right;
 }
