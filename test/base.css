@@ -239,7 +239,9 @@ header.main.fixed .top {
 header.main.fixed .top .logo {
   width: 200px;
   position: absolute;
-  display: inline-block;
+}
+header.main.fixed .top .logo a {
+  display: inline;
 }
 header.main.fixed .top .logo a:hover {
   border: none;
