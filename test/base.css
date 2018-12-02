@@ -256,7 +256,7 @@ header.main.fixed .top .logo a:hover {
 /* IE hack */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	header.main.fixed {
-		background: yellow;
+		background: red;
 		position: absolute;
 	}
 }
