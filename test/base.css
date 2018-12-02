@@ -247,9 +247,6 @@ header.main.fixed .top .logo svg {
 header.main.fixed .top .logo a:hover {
   border: none;
 }
-.logo-text {
-  fill: black;
-}
 @media (min-width: 900px) {
   header.main.fixed .top .logo svg {
 	  width: 250px;
