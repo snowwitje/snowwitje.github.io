@@ -217,7 +217,7 @@ header.main .top.no-nav nav {
 header.main.fixed {
 	position: fixed;
 	width: 100%;
-	background: transparent;
+	background: white;
 	top: 0;
 	left: 0;
 	z-index: 10;
@@ -230,6 +230,7 @@ header.main.fixed + .container {
 }
 header.main.fixed .top {
   padding: 0.2em 1.5em;
+  display: inline-block;
 }
 
 /* Logo */
@@ -238,6 +239,7 @@ header.main.fixed .top .logo {
   float: left;
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 header.main.fixed .top .logo a:hover {
   border: none;
