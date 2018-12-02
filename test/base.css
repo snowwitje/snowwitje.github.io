@@ -144,7 +144,6 @@ header.main {
   overflow: hidden;
   max-height: 6em;
 }
-
 header.main:after {
   content: '';
   display: block;
@@ -160,8 +159,6 @@ header.main .top:after {
 header.main .top:after {
   clear: both;
 }
-
-
 header.main .top {
   padding: 1rem 2rem;
   position: relative;
@@ -233,6 +230,8 @@ header.main.fixed + .container {
 }
 header.main.fixed .top .logo {
   width: 200px;
+  position: absolute;
+  top: 0;
 }
 header.main.fixed .top {
   padding: 0.2rem 2rem;
