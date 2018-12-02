@@ -211,9 +211,6 @@ header.main .top.no-nav .logo {
 header.main .top.no-nav nav {
   display: none;
 }
-.logo-text {
-	fill: black;
-}
 */
 
 /* Fixed header */
@@ -224,13 +221,22 @@ header.main.fixed {
 	top: 0;
 	left: 0;
 	z-index: 10;
-	max-height: 50px;
+	height: 60px;
 	transition: all 0.2s ease-in;
 }
 header.main.fixed + .container-fluid,
 header.main.fixed + .container {
 	padding-top: 100px;
 }
+header.main.fixed .top {
+  padding: 0.1em 2em;
+  position: relative;
+}
+header.main.fixed.shaded {
+  background: black;
+}
+
+/* Logo */
 header.main.fixed .top .logo {
   width: 200px;
   top: 0;
@@ -238,15 +244,16 @@ header.main.fixed .top .logo {
 header.main.fixed .top .logo a:hover {
 	border: none;
 }
-header.main.fixed .top {
-  padding: 0.1em 2em;
-  position: relative;
-}
-header.main.fixed.shaded {
-	background: black;
-}
 header.main.fixed.shaded .logo-text {
-	fill: white;
+  fill: white;
+}
+.logo-text {
+	fill: black;
+}
+@media (min-width: 900px) {
+  .logo {
+	width: 250px !important;
+  }
 }
 
 
@@ -870,15 +877,6 @@ svg#city-loader path {
 
 
 /* component styles */
-.logo {
-  width: 200px;
-  float: left;
-}
-@media (min-width: 900px) {
-  .logo {
-	width: 250px !important;
-  }
-}
 .subline {
 	margin: 4em 0 3em 0;
 	padding-top: 0.5em;
