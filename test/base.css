@@ -239,10 +239,16 @@ header.main.fixed .top {
 header.main.fixed .top .logo {
   width: 200px;
   float: left;
-  overflow: hidden;
+  position: relative;
+	height: 0;
 }
 header.main.fixed .top .logo a:hover {
   border: none;
+}
+.logo svg {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .logo-text {
   fill: black;
@@ -255,10 +261,6 @@ header.main.fixed .top .logo a:hover {
 
 /* IE hack */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	header.main.fixed {
-		background: red;
-		position: absolute;
-	}
 }
 
 
