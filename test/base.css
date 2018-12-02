@@ -217,11 +217,10 @@ header.main .top.no-nav nav {
 header.main.fixed {
 	position: fixed;
 	width: 100%;
-	background: grey;
+	background: #e2eaf2;
 	top: 0;
 	left: 0;
 	z-index: 10;
-	max-height: 50px;
 	transition: all 0.2s ease-in;
 }
 header.main.fixed + .container-fluid,
