@@ -138,7 +138,6 @@ a:active {
 }
 /* Header */
 
-/*
 header.main {
   position: relative;
   text-align: center;
@@ -214,7 +213,6 @@ header.main .top.no-nav nav {
 .logo-text {
 	fill: black;
 }
-*/
 
 /* Fixed header */
 header.main.fixed {
