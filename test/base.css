@@ -217,7 +217,7 @@ header.main .top.no-nav nav {
 header.main.fixed {
 	position: fixed;
 	width: 100%;
-	background: grey;
+	background: transparent;
 	top: 0;
 	left: 0;
 	z-index: 10;
@@ -260,7 +260,9 @@ header.main.fixed.shaded .logo-text {
 /* IE hack */
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-
+	header.main.fixed .top .logo {
+	  top: -0.5em;
+	}
 }
 
 /* test */
