@@ -213,6 +213,7 @@ header.main .top.no-nav nav {
 .logo-text {
 	fill: black;
 }
+
 /* Fixed header */
 header.main.fixed {
 	position: fixed;
