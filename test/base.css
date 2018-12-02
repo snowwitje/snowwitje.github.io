@@ -232,7 +232,7 @@ header.main.fixed + .container {
 	padding-top: 100px;
 }
 header.main.fixed .top {
-  padding: 0.2em 1em;
+  padding: 0.3em 1em;
 }
 
 /* Logo */
@@ -252,15 +252,6 @@ header.main.fixed .top .logo a:hover {
 	  height: 45.66px;
   }
 }
-
-/* IE hack */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-	header.main.fixed {
-		background: yellow;
-		overflow: visible;
-	}
-}
-
 
 /* Icons */
 @font-face {
