@@ -224,6 +224,7 @@ header.main.fixed {
 	padding: 0;
 	margin: 0;
 	display: block;
+	height: 60px;
 }
 header.main.fixed + .container-fluid,
 header.main.fixed + .container {
@@ -242,6 +243,9 @@ header.main.fixed .top .logo {
   padding: 0;
   display: inline-block;
 }
+header.main.fixed .top .logo a {
+	display: inline;
+}
 header.main.fixed .top .logo a:hover {
   border: none;
 }
@@ -257,8 +261,7 @@ header.main.fixed .top .logo a:hover {
 /* IE hack */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 	header.main.fixed {
-		background: blue;
-		line-height: 10pt;
+		background: green;
 	}
 	/* test */
 }
