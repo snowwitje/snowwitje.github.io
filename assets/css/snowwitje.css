@@ -206,6 +206,9 @@ section.content a .icon:before {
 .reveal section.content.content-cv {
 	text-align: left;
 }
+.reveal .content-cv .flex-section {
+    margin-bottom: 4rem; 
+}
 .reveal section.content.content-cv h5 {
 	text-align: left;
 	margin: 2em 0 0 1.5em;
@@ -223,7 +226,7 @@ section.content a .icon:before {
 	color: #888;
 }
 .reveal section.content.content-cv ul li {
-	margin-bottom: 0.1em;
+	margin-bottom: 0.5em;
 }
 .reveal section.content.content-cv ul.nostyle {
 	list-style: none;
@@ -359,13 +362,9 @@ ul.social li a.resume:hover {
 	color: rgba(239, 180, 39, 1);
 }
 .reveal a.follow {
-	/*background: rgba(159, 68, 178, 0.1);
-	color: rgba(159, 68, 178, 1);
-	border: 1px solid rgba(159, 68, 178, 0.1) !important;
-	*/
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding: 0 0.6em 0.2em 0.6em;
+	padding: 0.3em 0.6em;
 	background: #594c63;
 	color: white;
 }
@@ -374,6 +373,7 @@ ul.social li a.resume:hover {
 }
 a.follow:hover {
 	background: rgba(239, 180, 39, 0.2);
+    border: none;
 }
 
 /* Primary menu */
