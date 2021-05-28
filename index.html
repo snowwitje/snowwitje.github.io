@@ -21,10 +21,10 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 		<link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet">
-		<link rel="stylesheet" href="revealjs/css/reveal.css">
-		<link rel="stylesheet" href="assets/css/snowwitje.css" id="theme">
+        <link rel="stylesheet" href="assets/css/simple-lightbox.css" />
+        <link rel="stylesheet" href="assets/css/snowwitje.css" id="theme">
 		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/simple-lightbox.js"></script>
 		<script src="assets/js/snowwitje.js"></script>
 		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -39,13 +39,20 @@
 
 	</head>
 	<body class="snowwitje">
-			<ul id="menu"></ul>
+		<div class="sticky">
 			<header id="header">
 				<div class="title">
 					<h1><a href="index.html#/welcome">Alissa Nedossekina</a></h1>
-					<h2>UX/UI designer / creative lead</h2>
+					<h2>UX designer / crafter / creative lead</h2>
 				</div>
-				
+                
+                 <div id="primary-menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Selected Work</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                    </ul>
+			     </div>
+
 				<ul class="social">					
 					<li>
 						<a href="https://github.com/snowwitje" class="icon icon-github-circled" target="_blank">
@@ -57,873 +64,506 @@
 							<span class="label">@snowwitje</span>
 						</a>
 					</li>
-					<!--
-					<li>
-						<a href="https://www.youtube.com/user/snowwitje" class="icon icon-youtube-text" target="_blank">
-							<span class="label">youtube.com/snowwitje</span>
-						</a>
-					</li>
-					
-					<li class="pm" id="pm-cv">
-						<a href="index.html#/cv" class="resume"><span class="label">RESUME</span></a>
-					</li>
-					//-->
-					
-				</ul>
-				
-				
+
+				</ul>    
 			</header>
-		
-		<div id="primary-menu">
-					<ul>
-						<li><a href="worksamples.html">Work Samples</a></li>
-						<li class="active"><a href="index.html#">My Story</a></li>
-						<li><a href="resume.html">Resume</a></li>
-					</ul>
-				
-				</div>
+			
 
 			<div id="devochka">
 				<svg version="1.1" id="devochka-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="-390 145.9 178.9 270.1" style="enable-background:new -390 145.9 178.9 270.1;" xml:space="preserve">
-			<style type="text/css">
-				.st0{fill:none;stroke:#231F20;}
-				.st1{fill:#FCBA63;stroke:#231F20;}
-				.st2{fill:#6C6B86;stroke:#231F20;}
-				.st3{fill:#FFF0DF;stroke:#231F20;}
-				.st4{fill:#FFF0DF;}
-				.st5{fill:#231F20;}
-			</style>
-			<path class="st0" d="M-313.6,315.5c-0.6,10.7-9,17.8-10.7,27.6c-2.8,16.1,7.9,25.3,17.9,36.3c4.8,5.2,12.1,9.3,14.3,16
-				c2.4,7.2,0.2,12.7-6.6,13.9"/>
-			<path class="st0" d="M-284.3,311.4c-1.4,17.7-13.1,28.3-4.1,45.9c5.7,11.2,14.6,20,22.7,29.1c3.8,4.3,9.9,12.9,4.2,18.5
-				c-4.3,4.2-11.9,0-16.6,4.8"/>
-			<path class="st1" d="M-302.3,149.2c-9.2-1.7-20.1,8.2-25.6,14.5c-9.3,10.5-11.3,22.5-10.8,36.2c0.6,16.6-4,33-10.3,48.6
-				c-3.3,8-11.5,17.9-21.5,15.8c-2.9,9.3,16.8,18.1,22.5,21.5c6.5,3.9,12.7,8,19.6,11c8.3,3.6,14.4,0.9,24.1,0.8
-				c17.6-0.1,41.9-10.6,50.7-27.1c3.8-7.2,6.9-7.8,2.1-15.8c-6-10-16-19.1-19.5-30.6c-2.4-7.9-0.1-19.1,1-27.2
-				c1.6-11,3.3-18.3-0.4-29.9C-275.3,151.3-287.8,149.9-302.3,149.2"/>
-			<path class="st2" d="M-280.5,253.3c-7.9,6.9-7.2,7.6-18.2,8.3c-5.9,0.3-27.2,3.1-27.2-5c-5.5-0.3,0.9,20-0.1,26.3
-				c-1.2,7.9-4.6,14.4-8.2,21c-5.1,9.3-30.6,30.1-30.8,30.8c-2.4-0.4,4.9,4.8,3.4,3.1c7.2,5.5,8.9,3.2,17.2,8
-				c12.5,7.2,25.4,16.8,36.1,6.3c12.6-12.3,25.3-15.9,39.8-15.9c12.1,0,22.2,10.1,33.4,10.2c-14.1-17.2-27.8-37.1-33.6-58.5
-				c-3.1-11.5-8.4-23.5-8.8-35.2"/>
-			<path class="st3" d="M-307.9,207.1c-0.5,9.3,1.6,18.7,0.7,27.7c-0.8,7.8-10.6,18.2-18.7,21.8c5.2,14,37.7,13.8,48.4-3.9
-				c-8.7,0.9-19.3-14.5-21.7-21c-2.8-7.5-2.5-18.8,1.3-26.1c-3.8-0.4-8.1-1.8-10,2.2"/>
-			<g>
-				<g>
-					<path class="st4" d="M-269.5,179.3c-0.9,0-1.8,0.2-2.5,0.8c-3.7-12.3-14.7-21.6-28.3-22.3c-13.7-0.7-25.7,7.5-30.6,19.5
-						c-0.3-0.1-0.6-0.2-1-0.2c-2.7-0.1-5.1,2.8-5.3,6.5c-0.2,3.5,1.6,6.4,4.1,6.9c0.8,15.8,13.4,28.8,29.5,29.7
-						c16.5,0.9,30.7-11.3,32.6-27.5c0.3,0.1,0.5,0.1,0.8,0.1c2.7,0.1,5.1-2.8,5.3-6.5C-264.7,182.6-266.8,179.4-269.5,179.3z"/>
-				</g>
-				<g>
-					<path class="st0" d="M-269.5,179.3c-0.9,0-1.8,0.2-2.5,0.8c-3.7-12.3-14.7-21.6-28.3-22.3c-13.7-0.7-25.7,7.5-30.6,19.5
-						c-0.3-0.1-0.6-0.2-1-0.2c-2.7-0.1-5.1,2.8-5.3,6.5c-0.2,3.5,1.6,6.4,4.1,6.9c0.8,15.8,13.4,28.8,29.5,29.7
-						c16.5,0.9,30.7-11.3,32.6-27.5c0.3,0.1,0.5,0.1,0.8,0.1c2.7,0.1,5.1-2.8,5.3-6.5C-264.7,182.6-266.8,179.4-269.5,179.3z"/>
-				</g>
-			</g>
-			<path class="st0 mouth" d="M-324.1,198.2c2.7,9.4,14.1,12.4,18.1,12.4c8.7,0,12.2-5.7,18.9-14.3" />
-			<path class="st0" d="M-311.9,188.4c-0.5,2.6-0.4,5.4,0.4,7.7c6.5,2.9,12.6-1.1,12.4-8.5"/>
-			<path class="st0" d="M-310.1,180c-0.3-4,0-7.7,4-9.1c4,2.9,3.1,13-4,10.4c-0.2-0.7,0-1.3,0-2"/>
-			<path class="st5 lefteye" d="M-309.9,177.7c-0.2-2.6,0-5.1,2.7-6.1c2.6,1.9,2,8.7-2.6,6.9c-0.1-0.5,0-0.9,0-1.3"/>
-			<path class="st5 righteye" d="M-301.1,178.4c-0.2-2.6,0-5.1,2.7-6.1c2.6,1.9,2,8.7-2.6,6.9c-0.1-0.5,0-0.9,0-1.3"/>
-			<path class="st0" d="M-301.6,180.5c-0.3-4,0-7.7,4-9.1c4,2.9,3.1,13-4,10.4c-0.2-0.7,0.1-1.3,0-2"/>
-			<path class="st0" d="M-326.1,255.9c-15.2,5.5-17.3,33.2-20.8,45.8c-3.8,13.6-18.2,34.6-41,23.4"/>
-			<path class="st0" d="M-281.2,252.1c18.3-1.6,25.8,25.5,27.7,38.4c1.4,9.9,3.4,22.8,12.2,28.9c7.3,5.1,17.3,6,25.9,6.5"/>
-			</svg>
+					<style type="text/css">
+						.st0{fill:none;stroke:#231F20;}
+						.st1{fill:#FCBA63;stroke:#231F20;}
+						.st2{fill:#6C6B86;stroke:#231F20;}
+						.st3{fill:#FFF0DF;stroke:#231F20;}
+						.st4{fill:#FFF0DF;}
+						.st5{fill:#231F20;}
+					</style>
+					<path class="st0" d="M-313.6,315.5c-0.6,10.7-9,17.8-10.7,27.6c-2.8,16.1,7.9,25.3,17.9,36.3c4.8,5.2,12.1,9.3,14.3,16
+						c2.4,7.2,0.2,12.7-6.6,13.9"/>
+					<path class="st0" d="M-284.3,311.4c-1.4,17.7-13.1,28.3-4.1,45.9c5.7,11.2,14.6,20,22.7,29.1c3.8,4.3,9.9,12.9,4.2,18.5
+						c-4.3,4.2-11.9,0-16.6,4.8"/>
+					<path class="st1" d="M-302.3,149.2c-9.2-1.7-20.1,8.2-25.6,14.5c-9.3,10.5-11.3,22.5-10.8,36.2c0.6,16.6-4,33-10.3,48.6
+						c-3.3,8-11.5,17.9-21.5,15.8c-2.9,9.3,16.8,18.1,22.5,21.5c6.5,3.9,12.7,8,19.6,11c8.3,3.6,14.4,0.9,24.1,0.8
+						c17.6-0.1,41.9-10.6,50.7-27.1c3.8-7.2,6.9-7.8,2.1-15.8c-6-10-16-19.1-19.5-30.6c-2.4-7.9-0.1-19.1,1-27.2
+						c1.6-11,3.3-18.3-0.4-29.9C-275.3,151.3-287.8,149.9-302.3,149.2"/>
+					<path class="st2" d="M-280.5,253.3c-7.9,6.9-7.2,7.6-18.2,8.3c-5.9,0.3-27.2,3.1-27.2-5c-5.5-0.3,0.9,20-0.1,26.3
+						c-1.2,7.9-4.6,14.4-8.2,21c-5.1,9.3-30.6,30.1-30.8,30.8c-2.4-0.4,4.9,4.8,3.4,3.1c7.2,5.5,8.9,3.2,17.2,8
+						c12.5,7.2,25.4,16.8,36.1,6.3c12.6-12.3,25.3-15.9,39.8-15.9c12.1,0,22.2,10.1,33.4,10.2c-14.1-17.2-27.8-37.1-33.6-58.5
+						c-3.1-11.5-8.4-23.5-8.8-35.2"/>
+					<path class="st3" d="M-307.9,207.1c-0.5,9.3,1.6,18.7,0.7,27.7c-0.8,7.8-10.6,18.2-18.7,21.8c5.2,14,37.7,13.8,48.4-3.9
+						c-8.7,0.9-19.3-14.5-21.7-21c-2.8-7.5-2.5-18.8,1.3-26.1c-3.8-0.4-8.1-1.8-10,2.2"/>
+					<g>
+						<g>
+							<path class="st4" d="M-269.5,179.3c-0.9,0-1.8,0.2-2.5,0.8c-3.7-12.3-14.7-21.6-28.3-22.3c-13.7-0.7-25.7,7.5-30.6,19.5
+								c-0.3-0.1-0.6-0.2-1-0.2c-2.7-0.1-5.1,2.8-5.3,6.5c-0.2,3.5,1.6,6.4,4.1,6.9c0.8,15.8,13.4,28.8,29.5,29.7
+								c16.5,0.9,30.7-11.3,32.6-27.5c0.3,0.1,0.5,0.1,0.8,0.1c2.7,0.1,5.1-2.8,5.3-6.5C-264.7,182.6-266.8,179.4-269.5,179.3z"/>
+						</g>
+						<g>
+							<path class="st0" d="M-269.5,179.3c-0.9,0-1.8,0.2-2.5,0.8c-3.7-12.3-14.7-21.6-28.3-22.3c-13.7-0.7-25.7,7.5-30.6,19.5
+								c-0.3-0.1-0.6-0.2-1-0.2c-2.7-0.1-5.1,2.8-5.3,6.5c-0.2,3.5,1.6,6.4,4.1,6.9c0.8,15.8,13.4,28.8,29.5,29.7
+								c16.5,0.9,30.7-11.3,32.6-27.5c0.3,0.1,0.5,0.1,0.8,0.1c2.7,0.1,5.1-2.8,5.3-6.5C-264.7,182.6-266.8,179.4-269.5,179.3z"/>
+						</g>
+					</g>
+					<path class="st0 mouth" d="M-324.1,198.2c2.7,9.4,14.1,12.4,18.1,12.4c8.7,0,12.2-5.7,18.9-14.3" />
+					<path class="st0" d="M-311.9,188.4c-0.5,2.6-0.4,5.4,0.4,7.7c6.5,2.9,12.6-1.1,12.4-8.5"/>
+					<path class="st0" d="M-310.1,180c-0.3-4,0-7.7,4-9.1c4,2.9,3.1,13-4,10.4c-0.2-0.7,0-1.3,0-2"/>
+					<path class="st5 lefteye" d="M-309.9,177.7c-0.2-2.6,0-5.1,2.7-6.1c2.6,1.9,2,8.7-2.6,6.9c-0.1-0.5,0-0.9,0-1.3"/>
+					<path class="st5 righteye" d="M-301.1,178.4c-0.2-2.6,0-5.1,2.7-6.1c2.6,1.9,2,8.7-2.6,6.9c-0.1-0.5,0-0.9,0-1.3"/>
+					<path class="st0" d="M-301.6,180.5c-0.3-4,0-7.7,4-9.1c4,2.9,3.1,13-4,10.4c-0.2-0.7,0.1-1.3,0-2"/>
+					<path class="st0" d="M-326.1,255.9c-15.2,5.5-17.3,33.2-20.8,45.8c-3.8,13.6-18.2,34.6-41,23.4"/>
+					<path class="st0" d="M-281.2,252.1c18.3-1.6,25.8,25.5,27.7,38.4c1.4,9.9,3.4,22.8,12.2,28.9c7.3,5.1,17.3,6,25.9,6.5"/>
+				</svg>
+			</div>	
+			
+			<div class="side-menu">
+				<ul class="cat-menu">
+					<li data-link="s-web" class="selected">Product Design</li>
+					<li data-link="s-prototype">Prototyping</li>
+					<li data-link="s-designsystem">Design Systems</li>
+					<li data-link="s-designthink">Design Thinking</li>	
+					<li data-link="s-corporate">Corporate Design</li>
+					<li data-link="s-print">Illustration / Print</li>
+					<li data-link="s-game">Game Design</li>
+					<li data-link="s-art">Mosaic Art</li>
+				</ul>
+			</div>
 		</div>
 		
+		
+		<div class="samples-wrap">
+			
+			<section class="content content-samples" id="s-web">
 
-		<div class="reveal">				
-			<div class="slides">
-				<section class="content primary" id="welcome" data-state="intro" data-title="Welcome"  >
-					<p><span class="me-img"></span> Hi! I'm Alissa. I design user experience in data analytics / industrial IoT / research collaboration / healthcare data projects. Employed by Molex (Koch Industries), I'm based in West Lafayette, IN.
-						This site is both my portfolio, and a story about me as a professional digital designer, coder and artist. To illustrate my motivation, design process and skills, I'll use the example of my work as a UX lead on the <strong>REMEDI</strong> project (2015-2019). <a href="index.html#/remedi" class="follow ">Follow my story<span class="icon icon-next"></span></a></p>				
-				</section>
-				
-				<section class="content slide" id="remedi" data-title="REMEDI Project">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>REMEDI Project</h4>
-							<p>Since Aug 2015 I've been leading the UX design of <a href="https://catalyzecare.org/remedi" target="_blank" ><strong>REMEDI</strong></a> by Purdue's <a href="https://www.purdue.edu/discoverypark/rche/" target="_blank">Regenstrief Center for Healthcare Engineering (RCHE)</a>. <strong>REMEDI</strong> is a data analytics platform for medical professionals, where clinicians from hospitals all around the US share data from medical devices like infusion pumps or ventilators, and use insight from REMEDI analytics to improve patient safety at their hospitals. Currently there are over 414 facilities across 32 US states + 3 countries using the site and providing data. The system is vendor-neutral and comes at no cost to participants. One participation rule - in order to see the data you must provide your data. Also, hospitals agree to share their data with medical researchers. It's a beautiful, public-good project, the winner of <a href="http://www.aami.org/professionaldevelopment/content.aspx?ItemNumber=1071" target="_blank"><strong>2017 AAMI Foundation Health Care’s Clinical Solution Award</strong></a> and <a href="http://www.ismp.org/Cheers/cheerswinners.asp" target="_blank"><strong>2017 Institute for Safe Medication Practices (ISMP) Cheers Award</strong></a>.</p>
-							<p class="follow-wrap">What's my project role? <strong>I design UX. </strong> <a href="index.html#/remedi-ux" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
+				<h4>Product Design</h4>
+				<h5>REMEDI platform. Infusion Pump Alerts tool. <span class="year">2017-2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/remedi/alerts-redesign.jpg" alt="Alerts tool" />
 						</div>
-						<!--
-						<div class="flex-col col2">
-							<div class="image-container perspective back-image">
-								<img src="assets/images/remedi/remedi-front.jpg" alt="" />
-							</div>
-							<div class="image-container perspective front-image absolute-image shifted-right-image">
-								<img src="assets/images/remedi/remedi-dashboard.jpg" alt="" />
-							</div>
-							<p class="footnote topmargin">Public page and Member Dashboard of REMEDI. My work: design, data modeling, programming.</p>
-						</div>
-						//-->
-						<div class="flex-col col2">
-							<div class="image-container perspective back-image">
-								<img src="assets/images/remedi/apps-compliance.jpg" alt="" />
-							</div>
-							<div class="image-container perspective front-image absolute-image shifted-right-image">
-								<img src="assets/images/remedi/apps-dll-stats.jpg" alt="" />
-							</div>
-							<p class="footnote topmargin">Infusion Pump Compliance and Drug Limit Library apps. My work: UX/UI design (visual, composition, navitaion, user flow etc.), production-ready interactive mock-ups, D3.js programming, ClojureScript UI.</p>
-						</div>
-					</div>			
-				</section>
-				
-				<section class="content" id="remedi-ux" data-title="REMEDI UX">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>REMEDI User Experience</h4>
-							<p>Users of <a href="https://catalyzecare.org/remedi" target="_blank" ><strong>REMEDI</strong></a> are clinicians busy working with patients in their day-to-day life. When they visit the web platform, they want to get answers to their questions quickly and efficiently. Many times they may not have exact questions and the intelligent analytics apps would point out intesting things in data and highlight areas of concern. When designing UX, you think of problems users are trying to solve and their tasks at hand, you consider how to smoothly guide them to answers, and make best use of their precious time.
-							<br />There are things we want from users in turn. We want them to regularly upload their data and be more active community members. You work these needs into the design and think how to engage users in helping you and make the experience seamless and rewarding.</p>
-							<p class="follow-wrap">Now, how exactly do I approach design tasks? <strong>Let me share my design process.</strong> <a href="index.html#/remedi-design" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-						
-						<div class="flex-col col2">
-							<ul class="gallery">
-								<li>
-									<a href="assets/images/remedi/dll-text.jpg" title="Drug Limit Libraries tool">
-										<img src="assets/images/remedi/thumbs/dll-text.jpg" alt="Drug Limit Libraries tool" />
-										<p class="about"><span class="details">REMEDI, 2016</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/remedi/dlc-text.jpg">
-										<img src="assets/images/remedi/thumbs/dlc-text.jpg" alt="Infusion Pump Compliance tool" />
-										<p class="about"><span class="details">REMEDI, 2016</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/remedi/dla-text.jpg">
-										<img src="assets/images/remedi/thumbs/dla-text.jpg" alt="Infusion Pump Alerts tool" />
-										<p class="about"><span class="details">REMEDI, 2017</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/remedi/uploader.png">
-										<img src="assets/images/remedi/thumbs/uploader.jpg" alt="Data Uploader Tool" />
-										<p class="about"><span class="details">REMEDI, 2015</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/remedi/public-text.png">
-										<img src="assets/images/remedi/thumbs/remedi-front.jpg" alt="REMEDI Public page" />
-										<p class="about"><span class="details">REMEDI, 2015</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/remedi/admin.png">
-										<img src="assets/images/remedi/thumbs/admin.jpg" alt="Administratve UI" />
-										<p class="about"><span class="details">REMEDI, 2016</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/remedi/vents.png">
-										<img src="assets/images/remedi/thumbs/vents.png" alt="REMEDI Ventilator Defaults app" />
-										<p class="about"><span class="details">REMEDI, 2017</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/remedi/alarms.png">
-										<img src="assets/images/remedi/thumbs/alarms.jpg" alt="Alarms app" />
-										<p class="about"><span class="details">REMEDI, 2018</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/remedi/dashboard.jpg">
-										<img src="assets/images/remedi/thumbs/dashboard.jpg" alt="Member Dashboard" />
-										<p class="about"><span class="details">REMEDI, 2017</span></p>
-									</a>
-								</li>
-							</ul>
-							<p class="footnote">Above are samples of my work for REMEDI - final products. Click on individual thumbnails for screenshots and info. Next page shows examples of design work in progress.</p>
-						</div>
-					</div>			
-				</section>
-				
-				
-				<section class="content" id="remedi-design" data-title="Design Process: Initial Steps" data-background="assets/images/ux/bg.jpg" data-background-repeat="no-repeat"  data-background-size="100%" data-background-position="0 0">
-					<div class="flex-section">
-						<div class="flex-col col2 white-bg">
-							<h4>Design Process: Initial Steps</h4>
-							<p>My process starts with user research and collecting requirements. The research includes interviews with selected user groups whenever possible, review of user survey information collected by other team members and analysis of available usage data. This initial user data review and team design sprints that I run with the team give ideas for first sketches. In new projects I like to start by sketching personas for key users and their journeys as they interact with the product. I use good old tools like Photoshop, Illustrator, Sketch, Axure RP or Pages to visualize and present ideas. The storyboards and idea sketches are then shared with stakeholders for early feedback and formalizing requirements.</p>
-							<p class="follow-wrap">When ideas take solid shape and are tested, I move on to <strong>building interactive prototypes.</strong> <a href="index.html#/remedi-mockups" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-						
-						<div class="flex-col col2">
-							<ul class="gallery three">
-								<li>
-									<a href="assets/images/amoeba/journeymap.jpg" title="Journey Map">
-										<img src="assets/images/ux/thumbs/journey.png" alt="Journey Map" />
-										<p class="about"><span class="details">Artifacts from user research and design thinking session with the team (OneSciencePlace project) creating personas and user journeys.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/ux/flow.png">
-										<img src="assets/images/remedi/thumbs/remedi-alarms-flow.jpg" alt="REMEDI Alarms app decision flow" />
-										<p class="about"><span class="details">Decision flow for the Alarms app, 2018. Done in Axure XP. The map follows user through the app and highlights places where he/she needs to make decisions that lead to an answer.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/ux/wireframe.png">
-										<img src="assets/images/ux/thumbs/wireframe.png" alt="Alarms app wireframe" />
-										<p class="about"><span class="details">A wireframe for the Alarms app default view. Axure XP + Sketch. I use wireframes to explain page composition and design decisions when presenting to the dev team and stakeholders.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/ux/prototyping.png">
-										<img src="assets/images/ux/thumbs/prototyping.png" alt="DLL app designs" />
-										<p class="about"><span class="details">Design sketches of the Drug Limit Library app, showing how ideas for user decision flow translate into interface composition, and how high-fidelity prototype takes shape.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/ux/designsystem.png">
-										<img src="assets/images/ux/thumbs/designsystem.jpg" alt="REMEDI Design System" />
-										<p class="about"><span class="details">The Design System I've put together for the REMEDI project to ensure consistency of the UIs throughout the platform and apps. HTML version accessible at https://catalyzecare.org/remedi/designsystem</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/ux/presentation.png">
-										<img src="assets/images/ux/thumbs/presentation.png" alt="Stakeholder presentation" />
-										<p class="about"><span class="details">This is an example of slides from a presentation deck for the group to explain the design problem and proposed solution. Presentations to stakeholders are a big part of my work. They are important to collect feedback, explain my work, and educate team about UX.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/amoeba/loginregistration2.png">
-										<img src="assets/images/amoeba/thumbs/loginregistration.png" alt="Login/Registration flow" />
-										<p class="about"><span class="details">Mapping out login/registration process for OneSciencePlace.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/amoeba/mapping.png">
-										<img src="assets/images/amoeba/thumbs/sitemap.png" alt="Mapping user flows" />
-										<p class="about"><span class="details">Samples of early site maps and screen flows for a new service.</span></p>
-									</a>
-								</li>
-								
-								<li>
-									<a href="assets/images/remedi/orgselector.png">
-										<img src="assets/images/remedi/thumbs/orgselector.png" alt="From sketch to coded mockup" />
-										<p class="about"><span class="details">The image on top is a static prototype of the new organization selector in a REMEDI app. With several iterations and user/stakeholder feedback in between, the image below shows a coded interactive prototype soon to be tested with users.</span></p>
-									</a>
-								</li>		
-							</ul>
-							
-							<p class="footnote">Here are some examples of my early design sketches, wireframes, and other artifacts of the initial design process from several projects.</p>
-							
-						</div>
-					</div>			
-				</section>
-				
-				
-				<section class="content" id="remedi-mockups" data-title="Design Process: Mocking It Up">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>Design Process: Mocking It Up</h4>
-							<p><strong>I am a (UX) architect who builds. ;)</strong>
-								While I love design and the thrill of creative process most, I also enjoy coding my vision into something functional. The fact that I can take an idea all the way to production-ready code gives me sense of empowerment.
-								When it's time for interactive mock-ups, I build them quickly in HTML, CSS and JS w jQuery and D3.js for charts, normally using a simple text editor like Brackets. <br />
-							REMEDI apps UIs are built in ClojureScript + React.JS. Other developers (we are a power team of three :) usually pick-up my html mock-ups and hook them up to real data. Sometimes I get to write UIs in cljs. Yey for functional programming! :) Surely it takes a good number of rounds of user feedback+tweaking+testing+bug-fixing before a feature is production-ready. 
-							</p>
-							<p class="follow-wrap">The job is challenging and I wouldn't want it any other way. <strong>Let's talk about challenges!</strong> <a href="index.html#/ux-challenge" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-						
-						<div class="flex-col col2">
-							<div class="image-container perspective back-image">
-								<img src="assets/images/remedi/alerts-redesign.jpg" alt="" />
-							</div>
-							<p class="footnote">Interactive mock-up of the Alerts app. You wouldn't tell it from the actual app released in production, except that it's using made up data. The mock-up is 100% my work, start to finish.</p>
-						</div>
-					</div>			
-				</section>
-				
-				<section class="content" id="ux-challenge" data-title="The Challenge of UX Design">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>The Challenge of UX Design</h4>
-							<p>Back in 2015 I ran a session on <a href="https://snowwitje.github.io/presentations/mozfest2015/#/" target="_blank">UX Design Challenge in Scientific Software</a> at <a href="https://mozillafestival.org/about" target="_blank">Mozilla Festival</a> in London, UK. With about 25 folks from different backgrounds - designers, researchers, educators - we discussed what it takes to create intuitive, easy-to-use, responsive UIs and smooth user experience when building scientific apps with inherently complex underlying data and novel user workflows. I shared my experience on the open source <a href="index.html#/hubzero" target="_blank"><strong>Hubzero</strong></a> project, and highlighted the complexity of my task on the <a href="https://catalyzecare.org/remedi" target="_blank" ><strong>REMEDI</strong></a> project, where user questions are often unknown because we deal with new kind of data and are building pathways into uncharted territory. Personas, storyboards, metrics analysis all help, but to a certain extent. And you are left to sort it all out with "go design something" task from your manager. </p>
-							<p class="follow-wrap">So what's my take on this? <strong>I'll try to explain how I handle the challenge.</strong> <a href="index.html#/approach" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-						
-						<div class="flex-col col2">
-							<div class="image-container">
-								<img src="assets/images/remedi/challenge.png" alt="" />
-							</div>
-						</div>
-					</div>			
-				</section>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Users</span>Hospital pharmacists and nurses, members of <a href="https://catalyzecare.org/remedi" target="_blank" title="REMEDI - Regenstrief National Center for Medical Device Informatics">REMEDI</a>.</p>
+						<p><span class="h6">User Goals</span>Analyze how alert volume changed each month or by time of day, which drugs/fluids generated most alerts and how clinicians responded to alerts.</p>
+						<p><span class="h6">My Work</span>
+                            Complete design of the app, from initial data mining, flows to working prototypes. Visual, interaction, informational design.
+                        </p>
 
-				<section class="content" id="approach" data-title="Solving Design Puzzles">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>Solving Design Puzzles</h4>
-							<p>Let's say the big, complex, multivariate initial data are sorted and categorized. Let's say a list of possible user questions is derived from the data and surveying potential users. You have some pieces of the puzzle, you draw the missing pieces from your experience, make assumptions (to verify with users later). It's a kind of a puzzle that can take different final shapes, and each is worth exploring. You determine primary variables and major dependencies, you organize content around big categories: where, when, what, why and how, and consider simplest user pathways to answers. The design principles all come into play. You think of balance, proportions, compositional flow, space, consider responsiveness and scale. You know if you hit the mark as you watch users engage with your product.
-							</p>
-							<p class="follow-wrap">It feels overwhelmingly rewarding when users appreciate your design. <strong>I want to share a few thoughts on motivation.</strong> <a href="index.html#/motivation" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
+<p><strong>Development:</strong> HTML, CSS and JavaScript coding of the interactive  prototype and final app. 
+
+D3.js coding of the charts and UI components.
+
+    Technical integration with the <a href="https://hubzero.org" target="_blank">HUBzero</a> platform for scientific collaboration.</p>
 						
-						<div class="flex-col col2">
-							<div class="image-container perspective back-image">
-								<img src="assets/images/ux/flow.png" alt="" />
-							</div>
-							<div class="image-container perspective front-image medics">
-								<img src="assets/images/wireframe.png" alt="" />
-							</div>
-							<p class="footnote topmargin">Examples of my conceptual design and prototyping sketches as I am working on a new app.</p>
-						</div>
-					</div>			
-				</section>
+					</div>
+				</div>
+				<div class="clear"></div>
 				
-				<section class="content" id="motivation" data-title="Motivation">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>Motivation</h4>
-							<p>The most rewarding aspect on my work on the REMEDI project is knowing that by helping clinicians learn from their data, we help them in their strive to improve patient safety in hospitals. The project also contributes to the nationwide effort to standardize drug names, concentrations, drug delivery practices and thereby helps advance healthcare safety. I like to think of my work in the context of these big ideas and efforts, even when tackling small tasks.
-								</p>
-							<div class="image-container">
-								<img src="assets/images/motivation.png" alt="" />
-							</div>
+				<h5>REMEDI platform. Infusion Pump Drug Limit Libraries tool. <span class="year">2015</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/remedi/dll-stats.jpg" alt="Libraries tool" />
 						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Users</span>Hospital pharmacists and nurses, members of REMEDI.</p>
+						<p><span class="h6">User Goals</span>View common concentrations, dosing units and dosage for a particular drug or fluid; compare hospital settings on infusion pumps to other hospitals.
+</p>
+						<p><span class="h6">My Work</span>Design of the app from A to Z - UI, user flow and interaction.
+
+HTML, CSS and JavaScript coding of the interactive  prototype and final app. 
+
+D3.js coding of the charts and UI components. UI coding in ClojureScript + React.js.
+REMEDI responsive template design and platform design system.
+
+PHP+MySQL programming to integrate with the HUBzero platform.</p>
+						<p class="url"><span class="h6">Project URL</span> <a href="https://catalyzecare.org/remedi" target="_blank">https://catalyzecare.org/remedi</a> (member access required)</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+					
+				<h5>REMEDI platform. Infusion Pump Compliance tool. <span class="year">2016</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/remedi/compliance.jpg" alt="Compliance tool" />
+						</div>
+					</div>
+					<div class="flex-col col4">
 						
-						<div class="flex-col col2">
-							<p>Take my work at Hubzero as another example, - when developing components of Hubzero framework I thought of how this ultimately aids our users, scientists and educators, advance and publicize their research. With every UI I design and every feature I code, I consider how to help my users be more effective in their tasks, how to make their experience non-tedious and how to make them smile. :)
-								</p>
-							<p class="follow-wrap">I support open science, open source, open web. <strong>That's why I volunteer for Mozilla.</strong> <a href="index.html#/mozilla" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-							
-						</div>
-					</div>			
-				</section>
+						<p><span class="h6">Users</span>Hospital pharmacists and nurses, members of REMEDI.</p>
+						<p><span class="h6">User Goals</span>View trend in smart pump compliance in member hospital and benchmark against other hospitals.</p>
+						<p><span class="h6">My Work</span>Design of the app from A to Z - UI, user flow and interaction.
+
+HTML, CSS and JavaScript coding of the interactive  prototype and final app. 
+
+D3.js coding of the charts and UI components. REMEDI responsive template design and platform design system.
+
+PHP+MySQL programming to integrate with the HUBzero platform.</p>
+						<p class="url"><span class="h6">Project URL</span> <a href="https://catalyzecare.org/remedi" target="_blank">https://catalyzecare.org/remedi</a> (member access required)</p>
+					</div>
+				</div>
+				<div class="clear"></div>
 				
-				<section class="content" id="mozilla" data-title="Volunteering for Mozilla" data-background="assets/images/moz.jpg" data-background-repeat="no-repeat"  data-background-size="100%" data-background-position="0 50%">
-					<div class="flex-section">
-						<div class="flex-col col2 white-bg">
-							<h4>Volunteering for Mozilla</h4>
-							<p>My involvement with Mozilla as a volunteer started in 2015 when I was invited to run a <a href="https://mozillafestival.org/about" target="_blank">Mozfest</a> session on <a href="https://snowwitje.github.io/presentations/mozfest2015/#/" target="_blank">UX Design Challenge in Scientific Software</a>. In 2016 I joined <a href="https://mozilla.github.io/open-leadership-training-series/articles/readme/" target="_blank">Open Leadership Training</a> program run by <a href="https://twitter.com/abbycabs" target="_blank">@abbycabs</a> - first as a mentee on <strong>REMEDI Research Access</strong> project, then as a mentor, helping others (<a href="https://twitter.com/felipez3r0" target="_blank">Felipe Do E. Santo</a> with <a href="https://github.com/felipez3r0/openclasses" target="_blank">Open Graduation Classes</a>, <a href="https://twitter.com/paulvilloutreix" target="_blank">Paul Villoutreix</a> with <a href="https://github.com/paulvill/paulvill.github.io" target="_blank">Embryo Digital Atlas</a>, and others) plan, organize, advance and promote their open web / science / code projects.</p>
-							<p class="follow-wrap"> <strong>Let's look at my work for open source Hubzero</strong> <a href="index.html#/hubzero" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
+				<h5>REMEDI platform. Administrative Module. <span class="year">2015</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/remedi/adminui.png" alt="Administrative module of REMEDI" />
 						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Users</span>Administrators of the REMEDI platform.</p>
+						<p><span class="h6">User Goals</span>Add/edit organizations, members, manage members' ACL, edit platform configurations and view usage statistics.</p>
+						<p><span class="h6">My Work</span>UX/UI design and programming (PHP+MySQL; HTML, CSS, JavaScript).</p>
+						<p class="url"><span class="h6">Project URL</span> <a href="https://catalyzecare.org/remedi" target="_blank">https://catalyzecare.org/remedi</a> (member access required)</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>HUBzero platform. Projects component. <span class="year">2010-2015</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/hubs/projects.jpg" alt="Hub projects" class="noshadow" />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p>Selected screens with different areas of <i>Projects</i> presented.</p>
+						<p><span class="h6">Purpose</span>Collaborative area within HUBzero platform, where researchers and educators can communicate, store and share files and data, and publish with a DOI.</p>
+						<p><span class="h6">My Work</span>UX/UI design and programming (PHP+MySQL; HTML, CSS, JavaScript).</p>
+						<p class="url"><span class="h6">Project URL</span> <a href="https://hubzero.org" target="_blank">https://hubzero.org</a></p>
+						<p class="url"><span class="h6">Hubzero on Github</span> <a href="https://github.com/hubzero/hubzero-cms" target="_blank">https://github.com/hubzero</a></p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+			</section>
+		
+			<section class="content content-samples" id="s-prototype">
+				<h4>Prototyping</h4>
+				<h5>REMEDI platform. Early prototyping of the Drug Limit Libraries tool.<span class="year">2015</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/ux/prototyping.png" alt="DLL prototyping" class="noshadow" />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p>Sharing a few early sketches/stakeholder presentation materials. First iteration.</p>
+						<p><span class="h6">Purpose</span>Working with early insights from user research and with sample data from several pump vendors to propose the app's flow, UI composition and interaction.</p>
+						<p><span class="h6">My Work</span>The work involved analyzing available device data and questions that users seek to answer with the analytics tool; sorting out variables and breaking them into dimensions; figuring out the user story and proposing designs, iterating based on feedback from team and users.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>OneSciencePlace.org. From design concepts to early wireframing.<span class="year">2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/amoeba/concepts.png" alt="OSP prototyping" class="noshadow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p>Sharing a few early sketches/stakeholder presentation materials.</p>
+						<p><span class="h6">Project</span>OneSciencePlace is the new subscription-based application of the open source HUBzero platform for research collaboration and science simulation. Beta version to be released in Dec 2018.</p>
+						<p><span class="h6">My Work</span>Laying out UX design strategy; leveraging customer insights, user feedback and web analytics to create flow charts, wireframes and prototypes of new experience.</p>
+						<p class="url"><span class="h6">Project URL</span> <a href="https://onescienceplace.org/onescience" target="_blank">https://onescienceplace.org</a> (placeholder)</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>REMEDI Project. Alarms app user decision flow.<span class="year">2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/ux/flow.png" alt="Alarms decision flow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>The flow chart helps understand user pathway from research questions to answers when using the new Alarms app on the REMEDI platform. It organizes different variables and sorts them by dimension. Used for early prototyping of UI and presentation of concepts to stakeholders.</p>
+						<p><span class="h6">My Work</span>UX design work in Axure RP.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>REMEDI Project. Re-design of organization selection.<span class="year">2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/remedi/presentation.jpg" alt="Design challenge" class="noshadow"   />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p>Slides from presentation of design concepts to the dev team.</p>
+						<p><span class="h6">Purpose</span>Working in complex new user &amp; business requirements without adding complexity to the UI poses a real design challenge.</p>
+						<p><span class="h6">My Work</span>Proposing solutions to the design challenge to be tested with end users. The UX design work in Axure RP, Sketch. Presentation in Google Docs.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+			</section>
+
+			<section class="content content-samples" id="s-designsystem">
+				<h4>Design System</h4>
+				<h5>REMEDI platform. Remedi Design System. <span class="year">2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/ux/designsystem.png" alt="REMEDI Design System" class="noshadow" />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>Systematically describe common styles and UI elements used throughout the platform to ensure design consistency and aid team work.</p>
+						<p><span class="h6">My Work</span>All of it. From coming up with original styles, picking theme colors, icons and fonts, deciding on layouts etc. - to coding individual UI elements, writing CSS and documenting everything within a cohesive design system. Originally done in Sketch. The HTML version includes code snippets and guides for other developers on the team.</p>
+						<p class="url"><span class="h6">Check it out</span> <a href="https://catalyzecare.org/remedi/designsystem" target="_blank">https://catalyzecare.org/remedi/designsystem</a></p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</section>
+			
+			<section class="content content-samples" id="s-designthink">
+				<h4>Design Thinking</h4>
+				
+				<h5>OneSciencePlace.org. Running team design thinking sprints.<span class="year">2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/ux/designsprint.jpg" alt="Design sprints" />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>Shape up UX vision for a new application of a long-existing technology platform, understand who will use the new product and why, push for user-centered design and bring the whole team (developers, marketers and management) on the same page about product vision.</p>
+						<p><span class="h6">My Work</span>Organized and ran design sprints with the cross-functional team. In the first session the team drew assumption personas and user journeys from what we know about current users. With user interviews conducted between sessions and insights shared, the second sprint focused on ideation around content discovery within the new site. This is a young ongoing project. Each sprint sparks ideas to prototype, as well as identifies areas where additional user research is needed.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				
+				<h5>OneSciencePlace.org. Personas and user journey maps.<span class="year">2018</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/amoeba/journeymap.jpg" alt="User journeys"  class="noshadow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>Document personas and user journeys that the team generated during design thinking sessions.</p>
+						<p><span class="h6">My Work</span>Creating personas, user journeys and other artifacts of design sprints and user research findings. Done in Sketch.</p>
+					</div>
+				</div>
+				<div class="clear"></div>	
+			</section>
+			
+				
+			<section class="content content-samples" id="s-corporate">
+				<h4>Corporate Design</h4>
+				<h5>Air Canada / Destina.ca. Design of hotel search UI.<span class="year">2004</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/old/corporate1.jpg" alt="Air Canada"  class="noshadow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>Booking engine design revamp of AirCanada.com and partner sites.</p>
+						<p><span class="h6">My Work</span>Creating web graphics (headers, buttons, icons etc.) and html layouts using Photoshop and Dreamweaver.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>Air Canada. E-marketing.<span class="year">2003-2004</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/old/websaver.jpg" alt="Air Canada"  class="noshadow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>Design and maintain AirCanada's e-marketing materials, including <i>webSaver</i> and <i>onAir</i> e-newsletters.</p>
+						<p><span class="h6">My Work</span>Creating web graphics (headers, buttons, icons etc.) and html layouts using Photoshop and Dreamweaver.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>Ensemble Travel. E-marketing.<span class="year">2005-2006</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/old/eads.jpg" alt="Ensemble Travel"  class="noshadow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Purpose</span>Design and build regular e-ads to subscribers of travel deals.</p>
+						<p><span class="h6">My Work</span>Creating web graphics (headers, fonts, buttons, etc.) and html+css designs. Using Adobe Photoshop, Dreamweaver.  ASP/PHP for server side.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<h5>CE Network Inc. Landing pages<span class="year">2002</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/old/cenetwork_web.jpg" alt="CE Network web"  class="noshadow"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
+						<p>Landing pages for CE Network, the continuing education site for real estate and financial professionals. Using Dreamweaver, Photoshop, and Flash.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</section>
+			
+			<section class="content content-samples" id="s-print">
+				<h4>Illustration / Print</h4>
+				<h5>Technical illustration for EyeConX (freelance project).<span class="year">2002</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="sample">
+							<img src="assets/images/old/eye.jpg" alt="Technical illustration"  />
+						</div>
+					</div>
+					<div class="flex-col col4">
 						
-						<div class="flex-col col2">
-							<div class="image-container perspective back-image absolute-image">
-								<img src="assets/images/mozfest.jpg" alt="" />
-							</div>
-							<div class="image-container perspective moz front-image">
-								<img src="assets/images/openleaders.jpg" alt="" />
-							</div>
-						</div>
-					</div>			
-				</section>
+					</div>
+				</div>
+				<div class="clear"></div>
 				
-				
-				<section class="content" id="hubzero" data-title="Work for Open Source Hubzero">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>Work for Open Source Hubzero</h4>
-							
-							<ul class="gallery">
-								<li>
-									<a href="assets/images/hubs/publications2.jpg">
-										<img src="assets/images/hubs/thumbs/publications.jpg" alt="Publications" />
-										<p class="about"><span class="details">Digital publications out of hub projects. Dataset publishing is the core of Purdue University Research Repository (PURR) website. On nanoHUB, publishing system is used for Compact Models (https://nanohub.org/publications/compactmodels).</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/draftflow.jpg">
-										<img src="assets/images/hubs/thumbs/draftflow.jpg" alt="Publications" />
-										<p class="about"><span class="details">Publications draft flow - author side. User is walked through the process of publishing, adding metadata, content, tags, citations etc. The flow is fully configurable by hub admins for each publication type with its own requirements.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/curation.jpg">
-										<img src="assets/images/hubs/thumbs/curation.jpg" alt="Curation system" />
-										<p class="about"><span class="details">Curation system for digital publications. 2015</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/opg.jpg">
-										<img src="assets/images/hubs/thumbs/opg.jpg" alt="Open Parks Grid template" />
-										<p class="about"><span class="details">Example of one of the hub templates I designed, including logo design.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/projects_todo.jpg">
-										<img src="assets/images/hubs/thumbs/projects_todo.jpg" alt="To Do" />
-										<p class="about"><span class="details">To Do feature of the Projects component (2014). Users may create to do lists, assign items to each other, set due date and check items as completed.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/projects_files.jpg">
-										<img src="assets/images/hubs/thumbs/projects_files.jpg" alt="Project Files" />
-										<p class="about"><span class="details">Project Files web browser lists and manages project Git repository that may be connected and synced with Google Drive. 2014</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/jobs.jpg">
-										<img src="assets/images/hubs/thumbs/jobs.jpg" alt="Jobs Component" />
-										<p class="about"><span class="details">Jobs component connecting employers and job seekers. Developed back in 2009.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/wishlist.jpg">
-										<img src="assets/images/hubs/thumbs/wishlist.jpg" alt="Wishlist Component" />
-										<p class="about"><span class="details">Wish List user feedback feature (2010). Users submit ideas for the site or a particular content item (e.g. publication). Site admins, content owners or authorized advisory committee rate those ideas, build implementation plan and follow up with users.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/hubs/reputation.jpg">
-										<img src="assets/images/hubs/thumbs/reputation.jpg" alt="User Reputation System" />
-										<p class="about"><span class="details">User Reputation System design and testbed. 2010.</span></p>
-									</a>
-								</li>
-							</ul>
-							<p class="footnote">Above are some samples of my work at Hubzero. Click on individual thumbnails for screenshots and explanation.</p>
-						</div>
-						
-						<div class="flex-col col2">
-							<p>Before joining REMEDI I was a senior developer at <a href="https://hubzero.org" title="Go to Hubzero website" target="_blank"><strong>Hubzero</strong></a>, an open source software platform for scientific collaboration. The data management and publishing system at the core of Hubzero - Hub <i>Projects</i> and <i>Publications</i> - is almost solely my baby and my major contribution to the platform. Many hubs, with total usage base over 500K, rely on the solution I created for managing and sharing research data. For <a href="https://purr.purdue.edu" title="Go to PURR website" target="_blank">Purdue University Research Repository (PURR)</a>, data management hub for Purdue faculty, this is the core functionality. Other big ticket additions to the platform on my part include: <i>Wishlist</i> feature allowing users to submit ideas for improvement and for others to rank the ideas and determine priorities; <i>Contribtool</i> - simulation tool contribution system letting tool developers manage their development projects; and many more.</p>
-							<p class="follow-wrap">Prior to Hubzero, I led K-12 outreach project called <strong>Generation Nano</strong>. <a href="index.html#/gennano" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-					</div>			
-				</section>
-				
-				
-				
-				<section class="content" id="gennano" data-title="A Look Back: Generation Nano">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>A Look Back: Generation Nano</h4>
-						
+				<h5>CE Network. Marketing materials. <span class="year">2002</span></h5>
+				<div class="flex-section">
+					<div class="sample">
+						<img src="assets/images/old/cenetwork_print.jpg" alt="CE Network marketing" class="noshadow"  />
+					</div>
+				</div>
+				<div class="clear"></div>
+			</section>
+			
+			<section class="content content-samples" id="s-game">
+				<h4>Game Design</h4>
+				<h5>Generation Nano project.<span class="year">2007</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="gallery-container">
 							<ul class="gallery">
 								<li>
 									<a href="assets/images/gennano/gennano1.jpg">
-										<img src="assets/images/gennano/thumbs/gennano1.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Introductory scene.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano1.jpg" alt="Generation Nano" title="Generation Nano. Introductory scene." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano2.jpg">
-										<img src="assets/images/gennano/thumbs/gennano2.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. First activity: sorting.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano2.jpg" alt="Generation Nano" title="Generation Nano. First activity: sorting." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano3.png">
-										<img src="assets/images/gennano/thumbs/gennano3.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Nanotubes sorting game (screenshot).</span></p>
+										<img src="assets/images/gennano/thumbs/gennano3.jpg" alt="Generation Nano" title="Generation Nano. Nanotubes sorting game (screenshot)." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano4.jpg">
-										<img src="assets/images/gennano/thumbs/gennano4.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Exploratory activity.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano4.jpg" alt="Generation Nano" title="Generation Nano. Exploratory activity." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano5.png">
-										<img src="assets/images/gennano/thumbs/gennano5.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Mission activity view.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano5.jpg" alt="Generation Nano" title="Generation Nano. Mission activity view." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano6.png">
 										<img src="assets/images/gennano/thumbs/gennano6.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano</span></p>
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano7.png">
-										<img src="assets/images/gennano/thumbs/gennano7.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Exploratory activity.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano7.jpg" alt="Generation Nano" title="Generation Nano. Exploratory activity." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano8.jpg">
-										<img src="assets/images/gennano/thumbs/gennano8.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Configuring avatar.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano8.jpg" alt="Generation Nano" title="Generation Nano. Configuring avatar." />
 									</a>
 								</li>
 								<li>
 									<a href="assets/images/gennano/gennano9.jpg">
-										<img src="assets/images/gennano/thumbs/gennano9.jpg" alt="Generation Nano" />
-										<p class="about"><span class="details">Generation Nano. Mission view.</span></p>
+										<img src="assets/images/gennano/thumbs/gennano9.jpg" alt="Generation Nano" title="Generation Nano. Mission view." />
 									</a>
 								</li>
 							</ul>
-							<p class="footnote">Click on individual thumbnails for screenshots and explanation.</p>
+						<p class="footnote">Click on individual thumbnails for screenshots and explanation.</p>
 						</div>
 						
-						<div class="flex-col col2">
-							<p>When I joined Purdue in 2006, I led the <strong>Generation Nano</strong> project, K-12 outreach effort of the <a href="https://nanohub.org/groups/ncn" title="Visit NCN group page" target="_blank">Network for Computational Nanotechnology (NCN)</a>, which was an interactive website teaching middle school kids nanotechnology concepts through games and educational activities. Back then Flash was popular and I was an expert in Flash and ActionScript. The concept was an intriguing virtual world. When visiting the website, children would find themselves in the lobby of the <a href="https://nanohub.org/groups/bnc" title="Visit Birck Nanotechnology Center website" target="_blank">Birck Nanotechnology Center</a> at Purdue. They would explore the virtual hallways, cleanroom and labs, meet researchers, and engage in "missions" to help a researcher and learn about nanotechnology in the process. Looking back, this was probably the most enjoyable project of all I ever worked on.
-							</p>
-							<p class="follow-wrap"> <strong>More examples of my work in times of Flash and tables. </strong> <a href="index.html#/tables" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-					</div>			
-				</section>
-				
-				
-				<section class="content" id="tables" data-title="A Look Back: My Work in Times of Tables and Flash">
-					<div class="flex-section">
-						
-						<div class="flex-col col2">
-							<h4>A Look Back: My Work in Times of Tables and Flash</h4>
-							<ul class="gallery">
-								<li>
-									<a href="assets/images/old/peterbrock.png" title="Peter Brock Architect website">
-										<img src="assets/images/old/thumbs/peterbrock.jpg" alt="" />
-										<p class="about"><span class="details">Peter Brock Architect website (http://www.peter-brock.com). Freelance project, 2006.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/agmusic.jpg">
-										<img src="assets/images/old/thumbs/agmusic.jpg" alt="" />
-										<p class="about"><span class="details">AG Music Online Store - final school project at  the Institute for Computer Graphics Research (ICARI), Montreal, QC. 2002.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/cyberwinery.png">
-										<img src="assets/images/old/thumbs/cyberwinery.jpg" alt="" />
-										<p class="about"><span class="details">Cyber Winery interactive Flash website.  School project at  the Institute for Computer Graphics Research (ICARI), Montreal, QC. 2002.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/cenetwork_web.jpg">
-										<img src="assets/images/old/thumbs/cenetwork.jpg" alt="" />
-										<p class="about"><span class="details">Examples of web design for CE Network in Toronto back in 2001-2002. Did the Photoshop mock-ups, someone else implemented.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/destina.jpg">
-										<img src="assets/images/old/thumbs/destina.jpg" alt="" />
-										<p class="about"><span class="details">Destina.ca booking engine. My job was layout design and all web graphics/photo retouching. 2003</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/aircanada_websaver.jpg">
-										<img src="assets/images/old/thumbs/aircanada.png" alt="" />
-										<p class="about"><span class="details">Air Canada webSaver email. Design and html layout. 2003</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/cenetwork_print.jpg">
-										<img src="assets/images/old/thumbs/cenetwork_print.jpg" alt="" />
-										<p class="about"><span class="details">Examples of print design for CE Network in Toronto back in 2001-2002.</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/games/game.html" data-poptrox="iframe,680x420">
-										<img src="assets/images/old/thumbs/gameflash.jpg" alt="Hopeless Lover Game" />
-										<p class="about"><span class="details">Hopeless Lover Flash Game. (SWF - try it out).</span></p>
-									</a>
-								</li>
-								<li>
-									<a href="assets/images/old/tech_illustration.jpg">
-										<img src="assets/images/old/thumbs/tech_illustration.jpg" alt="" />
-										<p class="about"><span class="details">Examples of technical illustration. Flash, Adobe Illustrator. 2002-2005.</span></p>
-									</a>
-								</li>
-							</ul>
-							<p class="footnote">Click on individual thumbnails for screenshots and explanation.</p>
-						</div>
-						
-						<div class="flex-col col2">
-							<p>Prior to coming to Purdue, I lived in the big cities of Canada - Vancouver, Montreal, Toronto, - doing print and web design for companies like <i>Air Canada</i>, <i>Ensemble Travel</i> and <i>CE Network</i>, as well as running my own freelance business.<br />As an artist and programmer, I am largely self-taught. Computer drawing and animation was my passion ever since I got my first computer. Back in Moscow, Russia, where I originally come from, I studied Linguistics. Immigration to Canada in 2000 offered an opportunity to make graphic design my profession, and I jumped on it, training myself by solving tasks at hand and catching up on theory at evening classes while keeping the day job in IT support and eventually winning the title of a graphic artist. Eventually, already at Purdue, I caught up on formal education and completed Master's Degree in Technology in a program for working professionals. </p>
-							<p class="follow-wrap"> <strong>Next up is my mosaic art. </strong> <a href="index.html#/mosaics" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-					</div>			
-				</section>
-				
-				<section class="content content-gallery" id="mosaics" data-title="Mosaic Art and Other Passions">
-					<h4>Mosaic Art and Other Passions</h4>
-					
-					<div class="flex-section">
-						<div class="flex-col col2">
+					</div>
+					<div class="flex-col col4">
+						<p><span class="h6">Users</span>Middle school kids and their science teachers.</p>
+						<p><span class="h6">User Goals</span>Learn basic nanotechnology concepts.</p>
+						<p><span class="h6">Site Concept</span>When visiting the project website, children find themselves in the lobby of the <a href="https://nanohub.org/groups/bnc" title="Visit Birck Nanotechnology Center website" target="_blank">Birck Nanotechnology Center</a> at Purdue University.  They explore the virtual hallways, cleanroom and labs, meet various researchers, and engage in different tasks or "missions" in which they help a researcher and learn about nanotechnology in the process. Each successful mission is rewarded with a key, which could be used to unlock other, more advanced missions.</p>
+						<p><span class="h6">My Work</span>Concept, visual and interaction design. Flash UIs and ActionScript programming of all interaction and gaming activities.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</section>
+		
+			
+			<section class="content content-samples" id="s-art">
+				<h4>Mosaic Art</h4>
+				<h5>Mosaic art.<span class="year">2004-2010</span></h5>
+				<div class="flex-section">
+					<div class="flex-col col3">
+						<div class="gallery-container">
 							<ul class="gallery">
 								<li><a href="assets/images/mosaics/01.jpg">
-										<img src="assets/images/mosaics/01.jpg" alt="" />
-									<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+										<img src="assets/images/mosaics/01.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/02.jpg">
-										<img src="assets/images/mosaics/02.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/02.jpg">
+										<img src="assets/images/mosaics/02.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/03.jpg">
-										<img src="assets/images/mosaics/03.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/03.jpg">
+										<img src="assets/images/mosaics/03.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/04.jpg">
-										<img src="assets/images/mosaics/04.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/04.jpg">
+										<img src="assets/images/mosaics/04.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/05.jpg">
-										<img src="assets/images/mosaics/05.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/05.jpg">
+										<img src="assets/images/mosaics/05.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/06.jpg">
-										<img src="assets/images/mosaics/06.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/06.jpg">
+										<img src="assets/images/mosaics/06.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/07.jpg">
-										<img src="assets/images/mosaics/07.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/07.jpg">
+										<img src="assets/images/mosaics/07.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/08.jpg">
-										<img src="assets/images/mosaics/08.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/08.jpg">
+										<img src="assets/images/mosaics/08.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
-								<li>
-									<a href="assets/images/mosaics/09.jpg">
-										<img src="assets/images/mosaics/09.jpg" alt="" />
-										<p class="about"><span class="details">Mosaic Art by Alissa</span></p>
+								<li><a href="assets/images/mosaics/09.jpg">
+										<img src="assets/images/mosaics/09.jpg" alt="" title="Mosaic Art by Alissa"  />
 									</a>
 								</li>
 							</ul>
 							<p class="footnote">Click on individual thumbnails for screenshots and explanation.</p>
 						</div>
-						
-						<div class="flex-col col2">
-							<p>As a creative person, I have a number of passions. Mosaics has been one of them. I learned the skill while living in Montreal and attending <a href="https://www.facebook.com/pages/Mosaikashop/103796482996089" target="_blank">Mosaikashop</a> studio run by <a href="https://www.facebook.com/suzanne.spahi?fref=ts" target="_blank">Suzanne Spahi</a>. My mother <a href="https://www.facebook.com/pages/uRamosaic/113999692092094?fref=t" target="_blank">Irina</a> is an accomplished mosaic artist.</p>
-							
-							<p>Other passions include travelling (with Iceland being my new favorite destination), hiking, long haul kayaking, dancing and culinary art.</p>
-							<p>Also I am a happy mom of two most bright and spirited kids, a teen son and a pre-teen daughter. They are my best friends and I love exploring the world with them and sharing adventures.</p>
-							<p class="follow-wrap"> <strong>What's next for me? </strong> <a href="index.html#/next" class="follow">Follow my story<span class="icon icon-next"></span></a></p>
-						</div>
-						
-					</div>			
-				</section>
-				
-				
-				<section class="content" id="next" data-title="My Next Adventure?">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<div class="image-container">
-								<div id="devochka-look">
-									<svg version="1.1" id="biggirl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-216 261.9 178.9 270.1" style="enable-background:new -216 261.9 178.9 270.1;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#221F1F;}
-	.st1{fill:#FAB963;stroke:#221F1F;}
-	.st2{fill:#6C6B85;stroke:#221F1F;}
-	.st3{fill:#FFEFDF;stroke:#221F1F;}
-	.st4{fill:#FFEFDF;}
-	.st5{fill:#221F1F;}
-</style>
-<path class="st0" d="M-148.3,436.4c4.5,9.3,14.6,12.5,19.8,20.6c8.5,13.3,2.4,25.4-2.5,38.9c-2.3,6.4-7.3,12.8-6.8,19.5
-	c0.5,7.3,4.5,11.4,11,9.9"/>
-<path class="st0 leftleg" d="M-171.5,527.1c5.6-3.2,11.6,2.7,16.7-0.1c6.8-3.7,3.4-13.3,1-18.3c-5.1-10.6-11-21.1-13.4-33
-	c-3.7-18.7,9.9-25.4,15.9-41.5"/>
-<path class="st1" d="M-132,266.1c8.9-1.6,19.4,7.9,24.7,14c9,10.1,10.9,21.7,10.4,34.9c-0.6,16,3.9,31.8,9.9,46.8
-	c3.2,7.7,11.1,17.3,20.7,15.2c2.8,9-16.2,17.4-21.7,20.7c-6.3,3.8-12.2,7.7-18.9,10.6c-8,3.5-13.9,0.9-23.2,0.8
-	c-17-0.1-40.4-10.2-48.9-26.1c-3.7-6.9-6.7-7.5-2-15.2c5.8-9.6,15.4-18.4,18.8-29.5c2.3-7.6,0.1-18.4-1-26.2
-	c-1.5-10.6-3.2-17.6,0.4-28.8C-158,268.1-146,266.8-132,266.1"/>
-<path class="st2" d="M-153,366.5c7.6,6.7,6.9,7.3,17.5,8c5.7,0.3,26.2,3,26.2-4.8c5.3-0.3-0.9,19.3,0.1,25.4
-	c1.2,7.6,4.4,13.9,7.9,20.2c4.9,9,25,34.3,26.4,32.7c-16.6,7.7-8.6,3.1-16.6,7.7c-12,6.9-24.5,16.2-34.8,6.1
-	c-18.9-4.5-26.5,0.2-40.5,0.2c-11.7,0-19.3-5.8-30.1-5.7c13.6-16.6,26.8-35.8,32.4-56.4c3-11.1,8.1-22.7,8.5-33.9"/>
-<path class="st3" d="M-126.6,321.9c0.5,9-1.5,18-0.7,26.7c0.8,7.5,10.2,17.5,18,21c-5,13.5-36.3,13.3-46.7-3.8
-	c8.4,0.9,18.6-14,20.9-20.2c2.7-7.2,2.4-18.1-1.3-25.2c3.7-0.4,7.8-1.7,9.6,2.1"/>
-<g>
-	<g>
-		<path class="st4" d="M-163.6,295.1c0.9,0,1.7,0.2,2.4,0.8c3.6-11.9,14.2-20.8,27.3-21.5c13.2-0.7,24.8,7.2,29.5,18.8
-			c0.3-0.1,0.6-0.2,1-0.2c2.6-0.1,4.9,2.7,5.1,6.3c0.2,3.4-1.5,6.2-4,6.7c-0.8,15.2-12.9,27.8-28.4,28.6
-			c-15.9,0.9-29.6-10.9-31.4-26.5c-0.3,0.1-0.5,0.1-0.8,0.1c-2.6,0.1-4.9-2.7-5.1-6.3S-166.2,295.2-163.6,295.1z"/>
-	</g>
-	<g>
-		<path class="st0" d="M-163.6,295.1c0.9,0,1.7,0.2,2.4,0.8c3.6-11.9,14.2-20.8,27.3-21.5c13.2-0.7,24.8,7.2,29.5,18.8
-			c0.3-0.1,0.6-0.2,1-0.2c2.6-0.1,4.9,2.7,5.1,6.3c0.2,3.4-1.5,6.2-4,6.7c-0.8,15.2-12.9,27.8-28.4,28.6
-			c-15.9,0.9-29.6-10.9-31.4-26.5c-0.3,0.1-0.5,0.1-0.8,0.1c-2.6,0.1-4.9-2.7-5.1-6.3S-166.2,295.2-163.6,295.1z"/>
-	</g>
-</g>
-<path class="st0" d="M-115.3,311.3c-2.6,9.1-8,13.5-17.3,11.7c-5.9-1.1-11.7-8.6-15.7-13.8"/>
-<path class="st0" d="M-122.8,303.9c0.5,2.5,0.4,5.2-0.4,7.4c-6.3,2.8-12.1-1.1-12-8.2"/>
-<path class="st0" d="M-124.5,295.8c0.3-3.9,0-7.4-3.9-8.8c-3.9,2.8-3,12.5,3.9,10c0.2-0.7,0-1.3,0-1.9"/>
-<path class="st5 righteye" d="M-124.1,293.6c0.2-2.5,0-4.9-2.6-5.9c-2.5,1.8-1.9,8.4,2.5,6.7c0.1-0.5,0-0.9,0-1.3"/>
-<path class="st5 lefteye" d="M-132.2,294.3c0.2-2.5,0-4.9-2.6-5.9c-2.5,1.8-1.9,8.4,2.5,6.7c0.1-0.5,0-0.9,0-1.3"/>
-<path class="st0" d="M-132.7,296.3c0.3-3.9,0-7.4-3.9-8.8c-3.9,2.8-3,12.5,3.9,10c0.2-0.7-0.1-1.3,0-1.9"/>
-<path class="st0" d="M-109.1,369c14.7,5.3,16.7,32,20,44.1c3.7,13.1-97.4-2.5-75.4-13.3"/>
-<path class="st0" d="M-152.4,365.3c-17.6-1.5-24.9,29.2-26.7,41.6c2.7,10.4,89-3.4,80.7-2.9"/>
-</svg>
-
-								</div>
-							</div>
-						</div>
-						
-						<div class="flex-col col2">
-							<h4>My Next Adventure?</h4>
-							
-							<p>I'm looking for my next professional challenge and would love to be part of a high-impact or a cool experimental project with ambition to bring positive change, advance knowledge or help fellow humans in other ways. Open source? - Yey! Social change push? - Love it! Transformational technology improving human lives? - I'm in!</p>
-					<p><strong>To cut long story short...</strong>If you feel my skills, experience, artistic vision and enthusiasm would be an asset in your team, please get in touch! I may well be the one you need.</p>
-							<p class="follow-wrap"> <a href="index.html" class="follow back"><span class="icon icon-next icon-prev"></span> Back to start</a>  <a href="resume.html" class="follow">View my resume<span class="icon icon-next"></span></a></p>
-						</div>
-					</div>			
-				</section>
-				
-				<!--
-				<section class="content content-cv" id="cv" data-title="Resume">
-					<div class="flex-section">
-						<div class="flex-col col2">
-							<h4>Resume <a href="AlissaNedossekina-resume2018.pdf" class="download-link">Resume (PDF)</a>  <a href="work-samples-Alissa-Nedossekina-latest.pdf" class="download-link">Latest Work Samples (PDF)</a></h4>
-							
-							<h5>EXPERIENCE</h5>
-							<ul>
-								<li><strong>Purdue University, West Lafayette, IN</strong> <span class="rightfloat">2015 - present</span><br /> User Experience Architect
-</li>
-								<li><strong>Purdue University, West Lafayette, IN</strong> <span class="rightfloat">2010 - 2015</span><br />Senior Web Programmer
-</li>
-								<li><strong>Purdue University, West Lafayette, IN</strong> <span class="rightfloat">2006-2010 </span><br /> Web/Multimedia Management Specialist
-</li>
-								
-								<li><strong>Ensemble Travel Group, Vancouver, BC</strong> <span class="rightfloat">2004-2006</span> <br />Web Developer</li>
-								<li><strong>Air Canada, Montreal, QC</strong> <span class="rightfloat">2003-2004</span><br />Web Designer</li>
-								<li><strong>CE Network Inc., Toronto, ON</strong> <span class="rightfloat">2001-2003</span><br /> Graphic Artist; Freelance Web Designer</li>
-							</ul>
-							
-							<h5>EDUCATION</h5>
-							<ul>
-								<li><strong>Purdue University, West Lafayette, IN</strong>, 2009, M.S. in Technology
-</li>
-								<li><strong>Institute for Computer Graphics Research (ICARI), Montreal, QC</strong>, 2003, Diploma in Web Design
-</li>
-								<li><strong>Moscow State Pedagogical University, Moscow, Russia</strong>, 2000,
-									B.A. equivalent in Linguistics and Communication
-</li>
-							</ul>
-														
-							<h5>CONTACT <span class="email">anedossekina&#64;gmail.com</span></h5>
-						</div>
-						
-						<div class="flex-col col2">
-						
-							<ul class="nostyle strong">
-								<li>Visionary UX lead with experience, skill and passion for solving challenging design problems and creating unique, engaging, emotional, meaningful experiences on the web.</li>
-							</ul>
-							
-							<h5>PROFESSIONAL DEVELOPMENT &amp; AWARDS</h5>
-							<ul>
-								<li><strong>Healthcare Leadership</strong> course, Health Informatics Master’s program, Purdue Global, 2018</li>
-								<li><strong>UX Management: Strategy and Tactics Certificate</strong>, Interaction Design Foundation (IDF), 2018</li>
-								<li><strong>Mozilla Foundation Open Leadership program mentor</strong>, 2017 - present</li>
-								<li><strong>Mozilla Foundation Open Leadership certificate</strong>, 12-Week Certificate Program, 2016</li> 
-<li><strong>Purdue Bravo Award</strong>, Purdue IT, 2015</li>
-								<li><strong>Technical Management Institute Certificate</strong>, Krannert School of Management, Purdue University, 2014</li>
-								<li><strong>Purdue Special Merit Award</strong>, Purdue Discovery Park, 2007</li>
-								<li><strong>Desktop Publishing Design Certificate</strong>, George Brown College, Toronto, ON, 2001
-</li>
-							</ul>
-							
-							<h5>SKILLS, TOOLS &amp; EXPERTISE</h5>
-						
-							<ul class="nostyle">
-								<li>Running design sprints with cross-functional teams; wireframing, flowcharting, low-fidelity and interactive prototyping; visual design, design systems; content modeling, information design; Adobe CS, Axure RP, Sketch and alike. Responsive design, web standards, accessibility. Lean/Agile. HTML, CSS, JavaScript, D3.js, PHP, MySQL, Git. Strong familiarity with ClojureScript + ReactJS.</li>
-							</ul>
-						</div>
-					</div>			
-				</section>
-				//-->
-			</div>
+					</div>
+					<div class="flex-col col4">
+						<p>Creatively expressing myself in mosaic art. Materials: Italian and Mexican smalti, millefiori, ceramics and vitreous glass.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</section>
 		</div>
+		
 
-		<script src="revealjs/lib/js/head.min.js"></script>
-		<script src="revealjs/js/reveal.js"></script>
-
-		<script>
-			
-			function resize(current) {
-				if (current > 0) {
-					$('#header').removeClass('extended');
-				} else {
-					$('#header').addClass('extended');
-				}
-			}
-
-			function hideGirl(cid) {
-				if (cid === 'next') {
-					$('#devochka').addClass('hidden');
-				} else {
-					$('#devochka').removeClass('hidden');
-				}
-			}
-			
-			// Build menu from the sections
-			function buildMenu() {
-				var items = $('section.content');
-				items.each(function (i, item) {
-					$('<li class="menu-item" id="menu-' + $(item).attr("id") + '"><a href="index.html#/' + $(item).attr("id") + '"><span class="title">' + $(item).attr("data-title") + '</span></a></li>').appendTo($('#menu'));
-				});
-			}
-			
-			// Highlight current active section in menu
-			function highlightMenuItem(id) {
-				var hid = 'menu-' + id;
-				$('.menu-item').each(function (i, item) {
-					$(item).removeClass("active");
-					if ($(item).attr("id") === hid) {
-						$(item).addClass("active");
-					}
-				});
-				
-				if ($('.pm').length > 0) {
-					$('.pm').each(function (i, item) {
-					$(item).removeClass("active");
-						if ($(item).attr("id") === 'pm-' + id) {
-							$(item).addClass("active");
-						}
-					});
-				}	
-			}
-			
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: false,
-
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-				]
-			});
-			
-			var state = Reveal.getState();
-			var current = state.indexh;
-			var cid = Reveal.getCurrentSlide().id;
-			
-						
-			buildMenu();
-			resize(current);
-			hideGirl(cid);
-			highlightMenuItem(cid);
-
-			Reveal.addEventListener( 'slidechanged', function(event) {
-				current = event.indexh,
-					cid = Reveal.getCurrentSlide().id;
-				
-				resize(current);
-				hideGirl(cid);
-				highlightMenuItem(cid);
-			} );
-	
-		</script>
 	</body>
 </html>

@@ -3,23 +3,18 @@ $(document).ready(function () {
 	'use strict';
 	var $window = $(window),
 		$body = $('body');
+    
 
 	// Lightbox gallery.
 	var $gallery = $('.gallery');
 	if ($gallery.length) {
 		$gallery.each(function (i, item) {
-			$(item).poptrox({
-				preload:   false,
-				popupPadding: 15,
-				caption: { selector: ".about", remove: true },
-				usePopupCaption: true,
-				usePopupNav: true,
-				popupCaptionHeight: 80
-			});
+			new SimpleLightbox($(this).find('a'));
 		});
 	}
+
 	
-	
+	/*
 	$window.on('load', function () {
 		if ($body.hasClass('special')) {
 			if ($('#header').hasClass('extended')) {
@@ -28,7 +23,7 @@ $(document).ready(function () {
 				$('#header').addClass('extended');
 			}
 		}
-	});
+	});*/
 	
 	function menuScroll() {
 
@@ -42,7 +37,7 @@ $(document).ready(function () {
 
 			if (document.getElementById(anchor)) {
 				$([document.documentElement, document.body]).animate({
-					scrollTop: $("#" + anchor).offset().top - 100
+					scrollTop: $("#" + anchor).offset().top - 60
 				}, 500);
 			}
 
