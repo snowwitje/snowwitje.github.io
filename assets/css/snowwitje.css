@@ -517,7 +517,7 @@ ul.gallery {
 	padding: 0;
   display: grid;
   width: 70%;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   grid-gap: 1rem;
   align-items: center;
   justify-content: center;
@@ -564,7 +564,8 @@ ul.gallery li img {
 	background: var(--secondary20);
 }
 video {
-  max-width: 60%;
+  width: 70%;
+  height: auto !important;
 }
 
 .youtube-container {
