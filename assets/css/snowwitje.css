@@ -550,8 +550,8 @@ ul.gallery li img {
   object-fit: contain;
 }
 .square ul.gallery {
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  width: 80%;
 }
 .square ul.gallery li img {
   width: 130%;
