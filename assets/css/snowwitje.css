@@ -165,7 +165,7 @@ header#header h1 a:hover {
 }
 header#header ul.social {
 	position: absolute;
-	right: 140px;
+	right: 120px;
     top: -1em;
 }
 .sticky {
@@ -270,7 +270,7 @@ section.content.content-cv ul.nostyle li {
 	position: absolute;
 	z-index: 1000;
     width: 80px;
-    right: 2rem;
+    right: 1.5rem;
     margin-top: -80px;
 }
 #devochka img {
@@ -589,6 +589,10 @@ video {
 .samples-wrap {
 	padding-top: 60px;
 }
+.story-wrap {
+  padding-top: 60px;
+  padding-bottom: 3rem;
+}
 .content-samples {
 	padding: 5em 100px 0 300px;
 }
@@ -601,6 +605,54 @@ ul.nostyle.strong li {
 	font-size: 1.1em;
 	padding-left: 1rem;
 	border-left: 5px solid var(--accentPurple50);
+}
+/* Stories */
+.content-story {
+	padding: 5em 0 0 0;
+  margin: 0 auto;
+  width: 80%;
+  min-height: 100vh;
+}
+section.content.content-story h4,
+.content-story .sample {
+  text-align: center;
+}
+.content-story .sample img {
+  width: 70%;
+}
+header#header.story-header  {
+  text-align: center;
+  display: block;
+}
+header#header.story-header h1 {
+  color: var(--baseDarkest);
+  padding: 0.8rem;
+}
+header#header.story-header h1 span {
+  color: var(--accentPurple);
+}
+header#header.story-header .back {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+.back:hover .icon::before {
+  color: var(--accentPurple);
+}
+.story-text {
+  width: 60%;
+  margin: 1rem auto 2rem auto;
+  padding: 0.5rem 1rem;
+  background: var(--background);
+}
+section.content.content-samples.content-story .story-text p {
+	text-align: left;
+	padding: 0;
+  margin: 0.5em 0;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	color: var(--baseDarkest);
+	font-weight: 300;
 }
 
 /* Side menu */
@@ -739,6 +791,11 @@ p.footnote {
 	ul.social .pm .label {
 		display: inline;
 	}
+  header#header ul.social li {
+    display: block;
+    padding: 0;
+    margin: 0 0 1em 0;
+  }
 }
 
 @media all and (max-height: 500px) and (max-width: 600px) {
@@ -820,6 +877,24 @@ p.footnote {
 	}
   video {
     max-width: 90%;
+  }
+  .back .icon > span {
+    display: none;
+  }
+  header#header.story-header .back  {
+    left: 1rem;
+  }
+  .content-samples.content-story {
+    width: 90%;
+    padding: 0;
+    min-height: auto;
+    padding-top: 5em;
+  }
+  .story-text {
+    width: 80%;
+  }
+  .content-story .sample img {
+    width: 100%;
   }
 }
 

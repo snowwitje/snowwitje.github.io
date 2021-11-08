@@ -3,7 +3,7 @@ $(document).ready(function () {
 	'use strict';
 	var $window = $(window),
 		$body = $('body');
-    
+
 
 	// Lightbox gallery.
 	var $gallery = $('.gallery');
@@ -13,7 +13,7 @@ $(document).ready(function () {
 		});
 	}
 
-	
+
 	/*
 	$window.on('load', function () {
 		if ($body.hasClass('special')) {
@@ -24,7 +24,7 @@ $(document).ready(function () {
 			}
 		}
 	});*/
-	
+
 	function menuScroll() {
 
 		$('.cat-menu li').on('click', function () {
@@ -61,7 +61,7 @@ $(document).ready(function () {
 			});
 		});
 	}
-	
+
 	menuScroll();
-	
+
 });
