@@ -862,6 +862,13 @@ p.footnote {
     -o-column-count: initial;
     column-count: initial;
   }
+  header#header.story-header h1 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+  header#header.story-header h1 span {
+    display: block;
+  }
 }
 
 @media all and (max-width: 950px) {
