@@ -926,3 +926,29 @@ p.footnote {
   	padding: 1rem;
   }
 }
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    header#header.story-header h1 {
+      font-size: 1.2em;
+      line-height: 1.3em;
+      width: 100%;
+      padding: 0;
+    }
+    header#header.story-header {
+      min-height: 20px;
+    }
+    header#header.story-header h1 span {
+      display: inline;
+    }
+    header#header.story-header .back  {
+      top: 0.7rem;
+      left: 0.6rem;
+    }
+    .content-samples.content-story {
+    	padding-top: 2em;
+    }
+}
