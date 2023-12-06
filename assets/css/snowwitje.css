@@ -3,10 +3,10 @@
 :root {
     /* Base colors */
     --baseLight: #afabb2;
-    --baseMedium: #7f7488;
-    --baseDark: #594c63;
+    --baseMedium: #594c63;
+    --baseDark: #3F2E4C;
     --baseDarkest: #000;
-    --secondary: #7b7e84;
+    --secondary: #5B5F66;
     --secondary20: rgba(140,143,148,0.2); /*8c8f94*/
     --white: #fff;
     --background: #f8f8f8;
@@ -14,7 +14,7 @@
     --accentPurple: rgba(159, 68, 178, 1);
     --accentPurple50: rgba(159, 68, 178, 0.5);
     --accentPurple10: rgba(159, 68, 178, 0.1);
-    --accentYellow: #efb427;
+    --accentYellow: #FFC742;
     --accentYellow20: rgba(239, 180, 39, 0.2);
     --accentYellow10: rgba(239, 180, 39, 0.1);
     --footnoteBackground: rgba(243,241,246, 0.8);
@@ -94,7 +94,7 @@ h1 {
 	line-height: 1.5;
 	padding: 0;
 	margin: 0;
-	color: var(--accentYellow);
+	color: var(--baseDark);
 }
 h2 {
 	padding: 0;
@@ -123,7 +123,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: var(--accentPurple);
+	color: var(--baseDark);
 }
 
 /* Header */
@@ -199,7 +199,7 @@ section.content a {
 }
 section.content a:hover,
 section.content a:hover .icon:before {
-	color: var(--accentYellow);
+	color: var(--baseDark);
 }
 section.content a .icon:before {
 	color: var(--accentPurple);
@@ -244,7 +244,7 @@ section.content.content-cv h5 {
 	margin: 2em 0 0 1.5em;
 	padding: 0;
 	text-transform: uppercase;
-	color: var(--accentYellow);
+	color: var(--accentPurple);
 	display: inline-block;
 	direction: ltr;
 }
@@ -724,7 +724,7 @@ section.content.content-samples h6, .h6
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	color: var(--accentYellow);
+	color: var(--accentPurple);
 	display: inline-block;
 	direction: ltr;
 	font-size: 0.9rem;
