@@ -478,6 +478,12 @@ section.content  strong {
           page-break-inside: avoid;
                break-inside: avoid;
 }
+.multicolumn p  {
+	break-inside: avoid;
+  /* Vendor prefix for older browsers */
+  -webkit-column-break-inside: avoid; 
+}
+
 .flex-col  {
   margin-bottom: 1rem;
 }
