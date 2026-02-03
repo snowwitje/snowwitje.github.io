@@ -695,6 +695,10 @@ section.content.content-samples.content-story .story-text p {
   margin-top: 1rem;
   padding: 0.5em 0.5em 0.5em 0;
   color: var(--baseDarkest);
+  font-weight: bold;
+}
+.sparkle {
+	font-size: 1.2rem;
 }
 
 /* Sample presentation */
