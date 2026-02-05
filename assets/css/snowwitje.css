@@ -691,7 +691,7 @@ section.content.content-samples.content-story .story-text p {
 	background: var(--accentYellow10);
 }
 .side-menu ul li.recent {
-  border-top: 1px solid var(--baseMedium);
+  border-bottom: 1px solid var(--baseMedium);
   margin-top: 1rem;
   padding: 0.5em 0.5em 0.5em 0;
   color: var(--baseDarkest);
