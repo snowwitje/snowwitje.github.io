@@ -465,6 +465,9 @@ section.content  strong {
   justify-content: center;
   margin: 0 auto 4rem auto;
 }
+.flex-section.compact {
+	margin-bottom: 1rem;
+}
 .flex-col:first-child .image-container {
 	margin-top: 2em;
 }
