@@ -713,7 +713,7 @@ section.content.content-samples.content-story .story-text p {
 	box-shadow: 0px 4px 18px -1px var(--secondary);
 	max-width: 100%;
 }
-.sample img.noshadow {
+.sample img.noshadow, .noshadow img {
 	border: 1px solid white;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
