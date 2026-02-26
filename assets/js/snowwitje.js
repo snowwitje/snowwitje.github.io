@@ -9,7 +9,7 @@ $(document).ready(function () {
 	var $gallery = $('.gallery');
 	if ($gallery.length) {
 		$gallery.each(function (i, item) {
-			new SimpleLightbox($(this).find('a'));
+			new SimpleLightbox($(this).find('a'), {sourceAttr: 'data-image'});
 		});
 	}
 
