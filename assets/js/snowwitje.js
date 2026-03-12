@@ -26,8 +26,9 @@ $(document).ready(function () {
 	});*/
 
 	function menuScroll() {
-
-		$('.cat-menu li').on('click', function () {
+	
+		$('.cat-menu li').on('click keydown', function(e) {
+			if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
 			$('.cat-menu li').each(function (i, item) {
 				$(item).removeClass('selected');
 			});
