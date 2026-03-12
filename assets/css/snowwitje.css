@@ -109,9 +109,6 @@ h1, h2, h3, h4, h5, .icon-next:before {
 		     -o-transition: all 0.5s ease-out;
 		        transition: all 0.5s ease-out;
 }
-h3 {
-	display: none;
-}
 
 a {
 	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -207,7 +204,7 @@ section.content a:hover .icon:before {
 section.content a .icon:before {
 	color: var(--accentPurple);
 }
-section.content h4 {
+section.content h3 {
 	text-align: left;
 	margin: 0 0 0 0;
 	padding: 0;
@@ -216,7 +213,7 @@ section.content h4 {
 	color: var(--baseDark);
 	font-size: 1.4rem;
 }
-section.content h4 a.download-link {
+section.content h3 a.download-link {
 	font-size: 0.6rem;
 	margin-left: 2em;
 	background: var(--accentPurple10);
@@ -242,7 +239,7 @@ section.content.content-cv {
 .content-cv .flex-section {
     margin-bottom: 2rem;
 }
-section.content.content-cv h5 {
+section.content.content-cv h3 {
 	text-align: left;
 	margin: 2em 0 0 1.5em;
 	padding: 0;
@@ -250,6 +247,7 @@ section.content.content-cv h5 {
 	color: var(--accentPurple);
 	display: inline-block;
 	direction: ltr;
+	font-size: 1.2rem;
 }
 section.content.content-cv ul {
 	font-size: 0.9rem;
@@ -623,12 +621,12 @@ ul.nostyle.strong li {
 .cv-intro {
 	display: flex;
 	align-items: center;
-	gap: 4rem;
+	gap: 3rem;
 	margin-bottom: 2rem;
 }
 .cv-photo {
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 	object-fit: cover;
 	object-position: center top;
@@ -636,11 +634,16 @@ ul.nostyle.strong li {
 }
 .cv-intro ul.nostyle.strong {
 	padding-left: 0;
+	font-weight: normal;
+}
+.cv-intro ul.nostyle strong {
+	font-weight: 800;
 }
 .cv-intro ul.nostyle.strong li {
 	margin-top: 0;
 	padding-left: 0;
 	border-left: none;
+	font-size: 1rem;
 }
 @media (max-width: 600px) {
 	.cv-intro {
@@ -658,6 +661,7 @@ ul.nostyle.strong li {
   width: 80%;
   min-height: 100vh;
 }
+section.content.content-story h3,
 section.content.content-story h4,
 .content-story .sample {
   text-align: center;
@@ -693,11 +697,25 @@ header#header.story-header .back {
 section.content.content-samples.content-story .story-text p {
 	text-align: left;
 	padding: 0;
-  margin: 0.5em 0;
+  	margin: 0.5em 0;
 	font-size: 1.1rem;
 	line-height: 1.5rem;
 	color: var(--baseDarkest);
 	font-weight: 300;
+}
+section.content.content-story h3 {
+	text-transform: none;
+}
+section.content.content-story h3 span {
+	color: var(--accentPurple);
+}
+section.content.content-story h4 {
+	font-size: 1.2rem;
+}
+@media (max-width: 600px) {
+	section.content.content-story h3 span {
+		display: block;
+	}
 }
 
 /* Side menu */
