@@ -113,26 +113,26 @@
 				</svg>
 			</div>
 
-			<div class="side-menu">
-				<ul class="cat-menu" role="menu">
-					<li role="menuitem" tabindex="0" data-link="s-recent" class="recent selected">Latest Work</li>
-					<li role="menuitem" tabindex="0" data-link="s-web">Product Design</li>
-					<li role="menuitem" tabindex="0" data-link="s-prototype">Prototyping</li>
-					<li role="menuitem" tabindex="0" data-link="s-designsystem">Design Systems</li>
-					<li role="menuitem" tabindex="0" data-link="s-designthink">Design Thinking</li>
-					<li role="menuitem" tabindex="0" data-link="s-game">Game Design</li>
-					<li role="menuitem" tabindex="0" data-link="s-corporate">Digital Marketing</li>
-					<li role="menuitem" tabindex="0" data-link="s-early">Early Web</li>
-					<li role="menuitem" tabindex="0" data-link="s-print">Illustration / Print</li>
-					<li role="menuitem" tabindex="0" data-link="s-art">Mosaic Art</li>			
+			<nav class="side-menu" aria-label="Page sections">
+				<ul class="cat-menu">
+					<li tabindex="0" data-link="s-recent" class="recent selected">Latest Work</li>
+					<li tabindex="0" data-link="s-web">Product Design</li>
+					<li tabindex="0" data-link="s-prototype">Prototyping</li>
+					<li tabindex="0" data-link="s-designsystem">Design Systems</li>
+					<li tabindex="0" data-link="s-designthink">Design Thinking</li>
+					<li tabindex="0" data-link="s-game">Game Design</li>
+					<li tabindex="0" data-link="s-corporate">Digital Marketing</li>
+					<li tabindex="0" data-link="s-early">Early Web</li>
+					<li tabindex="0" data-link="s-print">Illustration / Print</li>
+					<li tabindex="0" data-link="s-art">Mosaic Art</li>			
 				</ul>
-			</div>
+			</nav>
 		</div>
 
 
 		<main class="samples-wrap" id="main-content">
-			<section class="content content-samples" id="s-recent">
-				<h3>Latest Work</h3>
+			<section class="content content-samples" id="s-recent" aria-labelledby="s-recent-heading">
+				<h3 id="s-recent-heading">Latest Work</h3>
 				<h4>mPACT2WO industrial IoT platform, Molex, Koch Industries.<span class="year">2019-2026</span></h4>
 				<div class="flex-section">
 					<div class="flex-col col3">
@@ -183,9 +183,9 @@
 
 			</section>
 
-			<section class="content content-samples" id="s-web">
+			<section class="content content-samples" id="s-web" aria-labelledby="s-web-heading">
 
-				<h3>Product Design</h3>
+				<h3 id="s-web-heading">Product Design</h3>
 				<h4>REMEDI medical device data analytics platform, Purdue University. <span class="year">2015-2018</span></h4>
 
 				<div class="flex-section">
@@ -274,8 +274,8 @@ benchmark against community best practices.</p>
 			</section>
 
 			
-			<section class="content content-samples" id="s-prototype">
-				<h3>Prototyping</h3>
+			<section class="content content-samples" id="s-prototype" aria-labelledby="s-prototype-heading">
+				<h3 id="s-prototype-heading">Prototyping</h3>
 
 				<h4>mPACT2WO platform <em>Digi</em> offering. Screen flow.<span class="year">2019</span></h4>
 				<div class="flex-section">
@@ -346,9 +346,9 @@ benchmark against community best practices.</p>
 
 			</section>
 
-			<section class="content content-samples" id="s-designsystem">
-				<h3>Design Systems</h3>
-				
+			<section class="content content-samples" id="s-designsystem" aria-labelledby="s-designsystem-heading">
+				<h3 id="s-designsystem-heading">Design Systems</h3>
+
 				<h4>REMEDI platform. REMEDI Design System - published library view. <span class="year">2018</span></h4>
 				<div class="flex-section">
 					<div class="flex-col col3">
@@ -364,8 +364,8 @@ benchmark against community best practices.</p>
 
 			</section>
 
-			<section class="content content-samples" id="s-designthink">
-				<h3>Design Thinking</h3>
+			<section class="content content-samples" id="s-designthink" aria-labelledby="s-designthink-heading">
+				<h3 id="s-designthink-heading">Design Thinking</h3>
 
 				<h4>OneSciencePlace.org. Running team design thinking sprints.<span class="year">2018</span></h4>
 				<div class="flex-section">
@@ -383,8 +383,8 @@ benchmark against community best practices.</p>
 
 			</section>
 
-			<section class="content content-samples" id="s-game">
-				<h3>Game Design</h3>
+			<section class="content content-samples" id="s-game" aria-labelledby="s-game-heading">
+				<h3 id="s-game-heading">Game Design</h3>
 				<h4>Generation Nano project - game-based nanotechnology education site designed for K12 students.<span class="year">2007</span></h4>
 				<div class="flex-section">
 					<div class="flex-col col3">
@@ -392,51 +392,52 @@ benchmark against community best practices.</p>
 							<p class="footnote">Click on individual thumbnails for screenshots and explanation.</p>
 							<ul class="gallery">
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano1.jpg">
+									<button type="button" data-image="assets/images/gennano/gennano1.jpg">
 										<img src="assets/images/gennano/gennano1.jpg" alt="Generation Nano. Introductory scene." title="Generation Nano. Introductory scene.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano2.jpg" aria-label="Generation Nano. First activity: sorting.">
+									<button type="button" data-image="assets/images/gennano/gennano2.jpg">
 										<img src="assets/images/gennano/gennano2.jpg" alt="Generation Nano. First activity: sorting." title="Generation Nano. First activity: sorting.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano3.png" aria-label="Generation Nano. Nanotubes sorting game.">
+									<button type="button" data-image="assets/images/gennano/gennano3.png">
 										<img src="assets/images/gennano/gennano3.png" alt="Generation Nano. Nanotubes sorting game." title="Generation Nano. Nanotubes sorting game.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano4.jpg" aria-label="Generation Nano. Exploratory activity.">
+									<button type="button" data-image="assets/images/gennano/gennano4.jpg">
 										<img src="assets/images/gennano/gennano4.jpg" alt="Generation Nano. Exploratory activity." title="Generation Nano. Exploratory activity.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano5.png" aria-label="Generation Nano. Mission activity view - cleanroom entrance.">
+									<button type="button" data-image="assets/images/gennano/gennano5.png">
 										<img src="assets/images/gennano/gennano5.png" alt="Generation Nano. Mission activity view - cleanroom entrance." title="Generation Nano. Mission activity view - cleanroom entrance.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano6.png" aria-label="Generation Nano. Mission activity view - inside cleanroom.">
+									<button type="button" data-image="assets/images/gennano/gennano6.png">
 										<img src="assets/images/gennano/gennano6.png" alt="Generation Nano. Mission activity view - inside cleanroom." title="Generation Nano. Mission activity view - inside cleanroom.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano7.png" aria-label="Generation Nano. Exploratory activity - logarithmic scale.">
+									<button type="button" data-image="assets/images/gennano/gennano7.png">
 										<img src="assets/images/gennano/thumbs/gennano7.jpg" alt="Generation Nano. Exploratory activity - logarithmic scale." title="Generation Nano. Exploratory activity - logarithmic scale.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano8.jpg" aria-label="Generation Nano. Configuring avatar.">
+									<button type="button" data-image="assets/images/gennano/gennano8.jpg">
 										<img src="assets/images/gennano/gennano8.jpg" alt="Generation Nano. Configuring avatar." title="Generation Nano. Configuring avatar.">
-									</a>
+									</button>
 								</li>
 								<li>
-									<a href="#" data-image="assets/images/gennano/gennano9.jpg" aria-label="Generation Nano. Mission activity view.">
+									<button type="button" data-image="assets/images/gennano/gennano9.jpg">
 										<img src="assets/images/gennano/gennano9.jpg" alt="Generation Nano. Mission activity view." title="Generation Nano. Mission activity view.">
-									</a>
+									</button>
 								</li>
 							</ul>
+
 
 						</div>
 						<div class="video-container">
@@ -449,15 +450,15 @@ benchmark against community best practices.</p>
 					<div class="flex-col col4 multicolumn">
 						<p><span class="h6">Users</span>Middle school kids and their science teachers.</p>
 						<p><span class="h6">User Goals</span>Learn and teach basic nanotechnology concepts.</p>
-						<p><span class="h6">Site Concept</span>When visiting the project website, children find themselves in the lobby of the <a href="https://nanohub.org/groups/bnc" title="Visit Birck Nanotechnology Center website" target="_blank" aria-label="Visit Birk Nanotechnology Center website (opens in a new tab)">Birck Nanotechnology Center</a> at Purdue University.  They explore the virtual hallways, cleanroom and labs, meet various researchers, and engage in different tasks or "missions" in which they help a researcher and learn about nanotechnology in the process. Each successful mission is rewarded with a key, which could be used to unlock other, more advanced missions.</p>
+						<p><span class="h6">Site Concept</span>When visiting the project website, children find themselves in the lobby of the <a href="https://nanohub.org/groups/bnc" title="Visit Birck Nanotechnology Center website" target="_blank" aria-label="Visit Birck Nanotechnology Center website (opens in a new tab)">Birck Nanotechnology Center</a> at Purdue University.  They explore the virtual hallways, cleanroom and labs, meet various researchers, and engage in different tasks or "missions" in which they help a researcher and learn about nanotechnology in the process. Each successful mission is rewarded with a key, which could be used to unlock other, more advanced missions.</p>
 						<p><span class="h6">My Work</span>Concept, visual and interaction design. Flash UIs and ActionScript programming of all interaction and gaming activities.</p>
 						<p>Worked closely together with an instructional designer, graduate students and subject matter experts on Purdue campus to develop content and activities for the project.</p>
 					</div>
 				</div>
 			</section>
 
-			<section class="content content-samples" id="s-corporate">
-				<h3>Digital Marketing</h3>
+			<section class="content content-samples" id="s-corporate" aria-labelledby="s-corporate-heading">
+				<h3 id="s-corporate-heading">Digital Marketing</h3>
 
 				<h4>Air Canada. E-marketing.<span class="year">2003-2004</span></h4>
 				<div class="flex-section">
@@ -486,8 +487,8 @@ benchmark against community best practices.</p>
 				<div class="clear"></div>
 			</section>
 
-			<section class="content content-samples" id="s-early">
-				<h3>Early Web</h3>
+			<section class="content content-samples" id="s-early" aria-labelledby="s-early-heading">
+				<h3 id="s-early-heading">Early Web</h3>
 				<h4>Air Canada / Destina.ca. Design of hotel search UI.<span class="year">2004</span></h4>
 				<div class="flex-section">
 					<div class="flex-col col3">
@@ -529,8 +530,8 @@ benchmark against community best practices.</p>
 
 			</section>
 
-			<section class="content content-samples" id="s-print">
-				<h3>Illustration / Print</h3>
+			<section class="content content-samples" id="s-print" aria-labelledby="s-print-heading">
+				<h3 id="s-print-heading">Illustration / Print</h3>
 				<h4>Technical illustration for EyeConX (freelance project).<span class="year">2002</span></h4>
 				<div class="flex-section">
 						<div class="sample">
@@ -548,49 +549,49 @@ benchmark against community best practices.</p>
 				<div class="clear"></div>
 			</section>
 
-			<section class="content content-samples" id="s-art">
-				<h3>Mosaic Art</h3>
+			<section class="content content-samples" id="s-art" aria-labelledby="s-art-heading">
+				<h3 id="s-art-heading">Mosaic Art</h3>
 				<h4>Mosaic art.<span class="year">2004-2010</span></h4>
 				<div class="flex-section">
 					<div class="flex-col col3">
 						<div class="gallery-container">
 							<p class="footnote">Click on individual thumbnails for screenshots and explanation.</p>
 							<ul class="gallery">
-								<li><a href="#" data-image="assets/images/mosaics/01.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/01.jpg">
 										<img src="assets/images/mosaics/01.jpg" alt="Mosaic Art by Alissa" title="Mosaic Art by Alissa">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/02.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/02.jpg">
 										<img src="assets/images/mosaics/02.jpg" alt="Mosaic Art by Alissa - self-portrait" title="Mosaic Art by Alissa - self-portrait">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/03.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/03.jpg">
 										<img src="assets/images/mosaics/03.jpg" alt="Mosaic Art by Alissa - Guitar" title="Mosaic Art by Alissa - Guitar">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/04.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/04.jpg">
 										<img src="assets/images/mosaics/04.jpg" alt="Mosaic Art by Alissa - Portrait" title="Mosaic Art by Alissa - Portrait">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/05.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/05.jpg">
 										<img src="assets/images/mosaics/05.jpg" alt="Mosaic Art by Alissa - Two ladies" title="Mosaic Art by Alissa - Two ladies">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/06.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/06.jpg">
 										<img src="assets/images/mosaics/06.jpg" alt="Mosaic Art by Alissa - Spring" title="Mosaic Art by Alissa - Spring">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/07.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/07.jpg">
 										<img src="assets/images/mosaics/07.jpg" alt="Mosaic Art by Alissa work - Summer" title="Mosaic Art by Alissa work - Summer">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/08.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/08.jpg">
 										<img src="assets/images/mosaics/08.jpg" alt="Mosaic Art by Alissa work - Autumn" title="Mosaic Art by Alissa work - Autumn">
-									</a>
+									</button>
 								</li>
-								<li><a href="#" data-image="assets/images/mosaics/09.jpg">
+								<li><button type="button" data-image="assets/images/mosaics/09.jpg">
 										<img src="assets/images/mosaics/09.jpg" alt="Mosaic Art by Alissa work - Russia" title="Mosaic Art by Alissa work - Russia">
-									</a>
+									</button>
 								</li>
 							</ul>
 						</div>

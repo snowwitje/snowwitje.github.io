@@ -9,7 +9,7 @@ $(document).ready(function () {
 	var $gallery = $('.gallery');
 	if ($gallery.length) {
 		$gallery.each(function (i, item) {
-			new SimpleLightbox($(this).find('a'), {sourceAttr: 'data-image'});
+			new SimpleLightbox($(this).find('button[data-image]'), {sourceAttr: 'data-image'});
 		});
 	}
 
@@ -42,6 +42,12 @@ $(document).ready(function () {
 				}, 500);
 			}
 
+		});
+
+		$('.cat-menu li').on('keydown', function(e) {
+			if (e.key === 'ArrowDown') { $(this).next().focus(); }
+			if (e.key === 'ArrowUp')   { $(this).prev().focus(); }
+			if (e.key === 'Enter' || e.key === ' ') { /* activate */ }
 		});
 
 		$(window).scroll(function () {

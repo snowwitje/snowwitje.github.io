@@ -11,7 +11,7 @@
     --white: #fff;
     --background: #f8f8f8;
     --border: #E2E2E2;
-    --accentPurple: rgba(159, 68, 178, 1);
+    --accentPurple: #812993;
     --accentPurple50: rgba(159, 68, 178, 0.5);
     --accentPurple10: rgba(159, 68, 178, 0.1);
     --accentYellow: #FFC742;
@@ -81,6 +81,7 @@ html {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: transparent;
+	scroll-padding-top: 80px;
 }
 body {
 	font-family: 'Muli', sans-serif;
@@ -380,6 +381,13 @@ ul.social li:last-child {
 	border-bottom: none;
 	position: relative;
 }
+ul.social li a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 24px;
+	min-width: 24px;
+}
 .icon::before {
 	color: var(--baseMedium);
 }
@@ -560,6 +568,17 @@ ul.gallery li::before,
 ul.gallery > li > img {
   grid-area: 1 / 1 / 2 / 2;
 }
+ul.gallery li button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
 ul.gallery li img {
   position: absolute;
   top: 50%;
@@ -670,6 +689,7 @@ ul.nostyle.strong li {
 }
 .skip-link:focus {
     left: 1rem;
+    color: #231F20;
 }
 
 /* Stories */
