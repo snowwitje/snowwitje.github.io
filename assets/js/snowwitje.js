@@ -47,7 +47,6 @@ $(document).ready(function () {
 		$('.cat-menu li').on('keydown', function(e) {
 			if (e.key === 'ArrowDown') { $(this).next().focus(); }
 			if (e.key === 'ArrowUp')   { $(this).prev().focus(); }
-			if (e.key === 'Enter' || e.key === ' ') { /* activate */ }
 		});
 
 		$(window).scroll(function () {
