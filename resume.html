@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Alissa Nedossekina Portfolio</title>
+		<title>About Me</title>
 
 		<meta name="description" content="designer + developer with vision and drive, sharp tech skills and an eye for user-centered design" />
 		<meta name="author" content="snowwitje">
@@ -52,6 +52,7 @@
 
 	</head>
 	<body class="snowwitje">
+		<a href="#main-content" class="skip-link">Skip to main content</a>
 		<div class="sticky">
 			<header id="header">
 				<div class="title">
@@ -59,13 +60,13 @@
 					<h2>UXer, Crafter, Creative Lead</h2>
 				</div>
 
-                <div id="primary-menu">
+                <nav id="primary-menu" aria-label="Main navigation">
                     <ul>
                         <li><a href="index.html">Selected Work</a></li>
                         <li class="active"><a href="resume.html">About</a></li>
                         <li><a href="story.html">Process</a></li>
                     </ul>
-                </div>
+                </nav>
 
 				<ul class="social">
 					<li>
@@ -78,7 +79,7 @@
 			</header>
 
 
-			<div id="devochka">
+			<div id="devochka" aria-hidden="true">
 				<svg version="1.1" id="devochka-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="-390 145.9 178.9 270.1" style="enable-background:new -390 145.9 178.9 270.1;" xml:space="preserve">
 			<style type="text/css">
@@ -127,15 +128,15 @@
 		</div>
 		</div>
 
-
+		<main id="main-content">
 		<section class="content content-cv content-special" id="cv" data-title="Resume">
 			<div class="cv-intro">
 				<img src="assets/images/alissa.jpg" alt="Alissa Nedossekina" class="cv-photo">
-				<ul class="nostyle strong">
-					<li>Hands-on UX leader with 20+ years designing and building innovative products in B2B, industrial IoT, and higher education – from vision to production. Making complexity simple: translating multi-variant data, demanding workflows, and complex business requirements into intuitive experiences for technical users. Bringing human-centered design expertise and technical depth to traditional and AI-powered products. <br /><br />
-					<strong>Recent:</strong> Led UX and team for industrial IoT platform at Molex, designing flagship emissions visualization (published patents), building design systems, and stepping into PM roles when needed.
-					<strong>Earlier:</strong> 13 years at Purdue as #3 code contributor to HUBzero platform (40+ research communities), led REMEDI redesign (tripled to 400+ hospitals).</li>
-				</ul>
+				<div class="intro-text">
+					<p>Hands-on UX leader with 20+ years designing and building innovative products in B2B, industrial IoT, and higher education – from vision to production. Making complexity simple: translating multi-variant data, demanding workflows, and complex business requirements into intuitive experiences for technical users. Bringing human-centered design expertise and technical depth to traditional and AI-powered products. </p>
+					<p><strong>Recent:</strong> Led UX and team for industrial IoT platform at Molex, designing flagship emissions visualization (published patents), building design systems, and stepping into PM roles when needed.
+					<strong>Earlier:</strong> 13 years at Purdue as #3 code contributor to HUBzero platform (40+ research communities), led REMEDI redesign (tripled to 400+ hospitals).</p>
+				</div>
 			</div>
 
 			<div class="flex-section">
@@ -210,6 +211,6 @@ Figma, Adobe CS • Analytics (GA4) • Claude AI for workflows and prototyping<
 			</div>
 
 		</section>
-
+		</main>
 	</body>
 </html>
