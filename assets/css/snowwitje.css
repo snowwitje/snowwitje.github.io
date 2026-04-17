@@ -764,6 +764,7 @@ section.content.content-story h4 {
 	top: 140px;
 	left: 2rem;
 	text-align: right;
+	font-size: 0.9rem;
 }
 .side-menu ul {
 	list-style: none;
@@ -775,12 +776,12 @@ section.content.content-story h4 {
 	display: inline-block;
 	width: 100%;
 	margin: 0.2em 0;
-	padding: 0.2em 0.5em 0.2em 0;
+	padding: 0.3em 0.5em 0.3em 0;
 	color: var(--baseMedium);
 }
 .side-menu ul li:hover {
 	cursor: pointer;
-  color: var(--accentPurple);
+  	color: var(--accentPurple);
 }
 .side-menu ul li.selected {
 	color: var(--baseDarkest);
